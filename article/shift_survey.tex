@@ -1,0 +1,212 @@
+%------------------------------------------------------------------------------
+% IPOL LaTeX style guide and Example
+% by rafael grompone von gioi, nicolas limare, jose-luis lisani and others
+%------------------------------------------------------------------------------
+
+% IPOL class is based on the standard LaTeX article class is used
+% essentially in the same way. The layout must not be changed. Special
+% IPOL commands are used to set the title, authors and abstract.
+
+\documentclass{ipol}
+
+% Do not use math notations and greek letters in the title.
+\ipolSetTitle{A survey on shift estimation methods for image registration}
+
+% Author names must be separated with commas (,), not "and" or "&".
+\ipolSetAuthors{Martin Rais \ipolAuthorMark{1},
+                Second Author\ipolAuthorMark{2}}
+
+% Affiliations must contain the department, institution and country.
+% Use a professional email address (no gmail, yahoo, etc).
+% Do not add postal address.
+\ipolSetAffiliations{%
+\ipolAuthorMark{1} CMLA, ENS-Cachan, France
+                   (\texttt{martin.rais@cmla.ens-cachan.fr})\\
+\ipolAuthorMark{2} Department, Institution, Country
+                   (\texttt{username@mailserver.edu})}
+
+%------------------------------------------------------------------------------
+
+% The link hereafter points to IPOL documentation for convenience
+% in this document but must be replaced in your manuscript.
+% The preprint link will not be known before the first preprint page
+% is created. For early preprint versions, just don't use this command
+% and the link will be set to the IPOL journal DOI address.
+\ipolPreprintLink{http://www.ipol.im/}
+
+%------------------------------------------------------------------------------
+
+% Add packages and definitions here.
+% Keep the package list as small as possible and include the package
+% sources (packagename.sty) with your article source.
+% These packages are loaded by the IPOL class or considered standard,
+% and need not be provided with their source if they are used:
+%   color, hyperref, graphicx, rotating
+%   amsmath, amssymb, amsthm
+% For algorithms, please use the algorithm2e package instead of
+% algorithmx for simplicity and a uniform style.
+
+%\usepackage[vlined,ruled]{algorithm2e}
+% define input and output keywords
+%\SetKwInOut{Input}{input}
+%\SetKwInOut{Output}{output}
+% define comment style
+%\SetKwComment{Comment}{}{}
+%\newcommand{\mycmtsty}[1]{\em \small #1}
+%\SetCommentSty{mycmtsty}
+
+% Use \newtheorem{} for remarks and definitions.
+\usepackage{amsthm}
+\newtheorem{definition}{Definition}
+\newtheorem*{remark}{Remark}
+
+%------------------------------------------------------------------------------
+
+\usepackage{fancyvrb}
+\VerbatimFootnotes % allows verbatim text in footnotes
+
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage[font={small}, labelfont={sf}, textfont={sf}]{caption}
+\usepackage[labelformat=simple]{subcaption}
+\renewcommand\thesubfigure{(\alph{subfigure})}
+\usepackage{multirow}
+
+\newtheorem{theorem}{Theorem}
+
+\input{operators}
+
+\begin{document}
+
+% IPOL encourages authors to do joint submissions to IPOL and
+% SIIMS (SIAM Journal of Imaging Science). Upon acceptance, cross
+% references are placed between both articles. The environment
+% ipolSIIMS is used to set the standard header, before the
+% abstract. Uncoment these lines if you prepare an IPOL+SIIMS article:
+
+%\begin{ipolSIIMS}
+%This IPOL article is related to a companion publication in the SIAM
+%Journal on Imaging Sciences:\\
+%Author Names, ``Article Title.''
+%\textsl{SIAM Journal on Imaging Sciences}, vol.~X, no.~X,
+%pp.~N--M, YYYY. \url{http://dx.doi.org/10.1137/XXXXXXXXX}
+%\end{ipolSIIMS}
+
+%------------------------------------------------------------------------------
+% The abstract of an IPOL article must be informative and summarize all
+% important parts of the article. 
+
+\begin{ipolAbstract}
+The problem of global subpixel shift estimation appears frequently on several applications
+related to image processing. When  high accuracy is not required, most authors tend to
+use the well-known cross-correlation method which usually meets the performance
+requirements for such tasks. However, under more demanding accuracy constraints,
+cross-correlation approaches are either not accurate enough or their computational
+costs are prohibitive. Moreover, problems such as time constraints, varying illumination
+conditions, aliasing, among several others, make the shift estimation task harder.
+What is worse, there is little evidence about which shift estimation method to use
+depending on the circumstances. Our objective in this article is therefore to give an
+in depth study on shift estimation methods, offering a practical recipe showing 
+which methods are more suited depending on the conditions of the task. By discretizing 
+the distinct varying conditions, we evaluate on each of them more than a thousand 
+variants of shift estimation methods, and summarize the results here. We observed that 
+gradient-based shift estimation methods, used in a multi-scale and iterative form, 
+achieve in general the most accurate results, without requiring considerable 
+computational resources. 
+\end{ipolAbstract}
+
+%------------------------------------------------------------------------------
+% Use the source code info to briefly explain what can be found as
+% software code in the IPOL article.
+% Do not use the phrasing "...the IPOL web part of this article."
+
+\begin{ipolCode}
+The source code section briefly explains what the source code
+published with the article contains, all in a single paragraph. For
+example: The reviewed source code and documentation for this algorithm
+are available from \href{\ipolLink}{the web page of this
+  article}. Compilation and usage instruction are included in the
+\verb|README.txt| file of the archive.
+\end{ipolCode}
+
+
+%------------------------------------------------------------------------------
+% Use the supplementary files info to add explanations about other
+% files published with the article.
+
+\begin{ipolSupp}
+The supplementary files section provides explanations about other
+files published with the article, all in a single paragraph. Mention
+clearly if they are reviewed or not. For example: A reference dataset,
+to be used for further comparisons, is provided with the article and
+peer-reviewed. A Matlab interface (not reviewed) is also available for
+convenience.
+\end{ipolSupp}
+
+%------------------------------------------------------------------------------
+% All papers need key words. Key words are lowercase except for proper
+% names and acronyms, and separated with commas. Only use plain text.
+
+\ipolKeywords{first, second, third, fourth}
+
+%------------------------------------------------------------------------------
+% Article content starts here.
+
+\input{InfluenceOfNoise}
+
+\input{Evaluation}
+
+%------------------------------------------------------------------------------
+\subsection{Copyright}
+
+Authors must warrant to be the authors of every part of the final
+article including the images, or must include permission of the
+copyright holder. If you use images you do not own, you must include
+their authors and permissions to be used in the article in a special
+section at the end of the article. We want other researchers to be
+able to reuse these images for comparisons in other articles; try to
+use only images under a permissive license like ``CC-BY'' or ``CC0''.
+
+%------------------------------------------------------------------------------
+\section{References}
+
+\bibliographystyle{siam}
+\bibliography{refs}
+
+%------------------------------------------------------------------------------
+\section*{Acknowledgment}
+
+Include an acknowledgment of grant and funding organizations at the
+end of the article. For example: This work was partially funded by the
+ONR grant 1234ABCD, ERC grand 5678XYZ, and Treilles Foundation.
+
+%------------------------------------------------------------------------------
+\section*{Image Credits}
+
+You must mention the origin of \emph{every} image included in the article,
+with their authors and license. Use a small font size for this
+section, and set the heigh of the thumbnails to \verb|2em|. For example:\\
+%{\small
+%\includegraphics[height=2em]{images/finger.png}
+%  Glenn J. Mason (Flickr),
+%  CC-BY-SA\footnote{\url{http://www.flickr.com/photos/glennji/3558118429/}}\\     
+%\includegraphics[height=2em]{images/lily.png}
+%  Lulu of the Lotus-Eaters (Wikipedia),
+%  CC-BY-SA\footnote{\url{http://en.wikipedia.org/wiki/File:Sego\_lily\_cm-150.jpg}}\\
+%\includegraphics[height=2em]{images/ferrari.png}
+%  Courtesy Philip Greenspun\footnote{\url{http://philip.greenspun.com}}\\
+%\includegraphics[height=2em]{images/k19.png}
+%  Kodak Image Suite\footnote{\url{http://r0k.us/graphics/kodak/}} \\
+%\includegraphics[height=2em]{images/lena.png}
+%  Standard test image
+%}
+
+%------------------------------------------------------------------------------
+
+
+\end{document}
+%------------------------------------------------------------------------------

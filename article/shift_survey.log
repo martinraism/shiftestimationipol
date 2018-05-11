@@ -1,0 +1,2080 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.28)  29 MAR 2018 00:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**shift_survey.tex
+(./shift_survey.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 6 languages loaded.
+(./ipol.cls
+Document Class: ipol 2014/04/29 v0.4.3 IPOL article class
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count91
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count92
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip44
+\thm@postskip=\skip45
+\thm@headsep=\skip46
+\dth@everypar=\toks20
+)
+\c@definition=\count98
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count99
+\FV@InFile=\read1
+\FV@TabBox=\box26
+\c@FancyVerbLine=\count100
+\FV@StepNumber=\count101
+\FV@OutFile=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks22
+\ex@=\dimen109
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip11
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks23
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks24
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks25
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2013/09/10 v2.59 Date Time Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count114
+)
+\etb@tempcnta=\count115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2013/08/17 v2.03
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count116
+))
+\c@padzeroesN=\count117
+\fc@tmpcatcode=\count118
+\@DT@modctr=\count119
+\@ordinalctr=\count120
+\@orgargctr=\count121
+\@strctr=\count122
+\@tmpstrctr=\count123
+\@DT@loopN=\count124
+\@DT@X=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2013/08/17
+))
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count126
+\@month=\count127
+\@year=\count128
+\c@HOUR=\count129
+\c@HOURXII=\count130
+\c@MINUTE=\count131
+\c@TOHOUR=\count132
+\c@TOMINUTE=\count133
+\c@SECOND=\count134
+\currenthour=\count135
+\currentminute=\count136
+\currentsecond=\count137
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count138
+\dayofyear=\count139
+\dayofweek=\count140
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks27
+\dt@b=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count141
+\float@exts=\toks29
+\float@box=\box29
+\@float@everytoks=\toks30
+\@floatcapt=\box30
+)
+\@float@every@algorithm=\toks31
+\c@algorithm=\count142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count143
+\c@ALG@rem=\count144
+\c@ALG@nested=\count145
+\ALG@tlm=\skip50
+\ALG@thistlm=\skip51
+\c@ALG@Lnr=\count146
+\c@ALG@blocknr=\count147
+\c@ALG@storecount=\count148
+\c@ALG@tmpcounter=\count149
+\ALG@tmplength=\skip52
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen118
+\enit@toks=\toks32
+\enit@inbox=\box31
+\enitdp@description=\count150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@tempdima=\dimen122
+\caption@indent=\dimen123
+\caption@parindent=\dimen124
+\caption@hangindent=\dimen125
+)
+\c@ContinuedFloat=\count151
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count152
+\c@subtable=\count153
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen126
+)
+\c@theorem=\count154
+
+(./operators.tex) (./shift_survey.aux)
+\openout1 = `shift_survey.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count155
+\scratchdimen=\dimen127
+\scratchbox=\box32
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen128
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks34
+)
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 83.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count161
+)
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
+
+(./shift_survey.out) (./shift_survey.out)
+\@outlinefile=\write4
+\openout4 = `shift_survey.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<ipol_logo.png, id=137, 707.64375pt x 324.21124pt>
+File: ipol_logo.png Graphic file (type png)
+ <use ipol_logo.png>
+Package pdftex.def Info: ipol_logo.png used on input line 83.
+(pdftex.def)             Requested size: 163.89162pt x 75.08646pt.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 83.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 83.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead on input line 83.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count162
+\rotFPtop=\skip54
+\rotFPbot=\skip55
+\rot@float@box=\box34
+\rot@mess@toks=\toks35
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 83.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(./InfluenceOfNoise.tex [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./ipol_logo.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[2]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[3]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[4]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[5]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[7]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 246.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[8]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[9]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[11]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[12]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[13] <img/Gradients.png, id=473, 346.29375pt x 129.48375pt>
+File: img/Gradients.png Graphic file (type png)
+
+<use img/Gradients.png>
+Package pdftex.def Info: img/Gradients.png used on input line 527.
+(pdftex.def)             Requested size: 256.0748pt x 95.75125pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[14 <./img/Gradients.png (PNG copy)>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[15]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[16] <img/imOrigBeforeResampling.png, id=516, 722.7pt x 722.7pt>
+File: img/imOrigBeforeResampling.png Graphic file (type png)
+
+<use img/imOrigBeforeResampling.png>
+Package pdftex.def Info: img/imOrigBeforeResampling.png used on input line 642.
+
+(pdftex.def)             Requested size: 122.91872pt x 122.9125pt.
+
+<img/imAfterResamplingFFT.png, id=517, 722.7pt x 722.7pt>
+File: img/imAfterResamplingFFT.png Graphic file (type png)
+
+<use img/imAfterResamplingFFT.png>
+Package pdftex.def Info: img/imAfterResamplingFFT.png used on input line 648.
+(pdftex.def)             Requested size: 122.91872pt x 122.9125pt.
+
+<img/imOrigSymmetric.png, id=518, 1485.55pt x 1485.55pt>
+File: img/imOrigSymmetric.png Graphic file (type png)
+
+<use img/imOrigSymmetric.png>
+Package pdftex.def Info: img/imOrigSymmetric.png used on input line 654.
+(pdftex.def)             Requested size: 122.91872pt x 122.90393pt.
+
+<img/imAfterResamplingDCT.png, id=519, 742.775pt x 742.775pt>
+File: img/imAfterResamplingDCT.png Graphic file (type png)
+
+<use img/imAfterResamplingDCT.png>
+Package pdftex.def Info: img/imAfterResamplingDCT.png used on input line 659.
+(pdftex.def)             Requested size: 122.91872pt x 122.91527pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[17 <./img/imOrigBeforeResampling.png (PNG copy)> <./img/imAfterResamplingFFT.p
+ng (PNG copy)> <./img/imOrigSymmetric.png (PNG copy)> <./img/imAfterResamplingD
+CT.png (PNG copy)>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[18] <img/noiselessCPPsigma0.png, id=556, 1003.75pt x 1003.75pt>
+File: img/noiselessCPPsigma0.png Graphic file (type png)
+
+<use img/noiselessCPPsigma0.png>
+Package pdftex.def Info: img/noiselessCPPsigma0.png used on input line 770.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noiselessCPPsigma75.png, id=557, 1003.75pt x 1003.75pt>
+File: img/noiselessCPPsigma75.png Graphic file (type png)
+
+<use img/noiselessCPPsigma75.png>
+Package pdftex.def Info: img/noiselessCPPsigma75.png used on input line 774.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noiselessCPPsigma150.png, id=558, 1003.75pt x 1003.75pt>
+File: img/noiselessCPPsigma150.png Graphic file (type png)
+
+<use img/noiselessCPPsigma150.png>
+Package pdftex.def Info: img/noiselessCPPsigma150.png used on input line 778.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noiselessCPPsigma300.png, id=559, 1003.75pt x 1003.75pt>
+File: img/noiselessCPPsigma300.png Graphic file (type png)
+
+<use img/noiselessCPPsigma300.png>
+Package pdftex.def Info: img/noiselessCPPsigma300.png used on input line 782.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noiselessPOCsigma0.png, id=560, 1003.75pt x 1003.75pt>
+File: img/noiselessPOCsigma0.png Graphic file (type png)
+
+<use img/noiselessPOCsigma0.png>
+Package pdftex.def Info: img/noiselessPOCsigma0.png used on input line 787.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noiselessPOCsigma75.png, id=561, 1003.75pt x 1003.75pt>
+File: img/noiselessPOCsigma75.png Graphic file (type png)
+
+<use img/noiselessPOCsigma75.png>
+Package pdftex.def Info: img/noiselessPOCsigma75.png used on input line 791.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noiselessPOCsigma150.png, id=562, 1003.75pt x 1003.75pt>
+File: img/noiselessPOCsigma150.png Graphic file (type png)
+
+<use img/noiselessPOCsigma150.png>
+Package pdftex.def Info: img/noiselessPOCsigma150.png used on input line 795.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noiselessPOCsigma300.png, id=563, 1003.75pt x 1003.75pt>
+File: img/noiselessPOCsigma300.png Graphic file (type png)
+
+<use img/noiselessPOCsigma300.png>
+Package pdftex.def Info: img/noiselessPOCsigma300.png used on input line 799.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/Im1sigma0.png, id=564, 1003.75pt x 1003.75pt>
+File: img/Im1sigma0.png Graphic file (type png)
+ <use img/Im1sigma0.png>
+Package pdftex.def Info: img/Im1sigma0.png used on input line 809.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/Im1sigma75.png, id=565, 1003.75pt x 1003.75pt>
+File: img/Im1sigma75.png Graphic file (type png)
+ <use img/Im1sigma75.png>
+Package pdftex.def Info: img/Im1sigma75.png used on input line 813.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/Im1sigma150.png, id=566, 1003.75pt x 1003.75pt>
+File: img/Im1sigma150.png Graphic file (type png)
+ <use img/Im1sigma150.png>
+Package pdftex.def Info: img/Im1sigma150.png used on input line 817.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/Im1sigma300.png, id=567, 1003.75pt x 1003.75pt>
+File: img/Im1sigma300.png Graphic file (type png)
+ <use img/Im1sigma300.png>
+Package pdftex.def Info: img/Im1sigma300.png used on input line 821.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSsigma0.png, id=568, 1003.75pt x 1003.75pt>
+File: img/CPSsigma0.png Graphic file (type png)
+ <use img/CPSsigma0.png>
+Package pdftex.def Info: img/CPSsigma0.png used on input line 826.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSsigma75.png, id=569, 1003.75pt x 1003.75pt>
+File: img/CPSsigma75.png Graphic file (type png)
+ <use img/CPSsigma75.png>
+Package pdftex.def Info: img/CPSsigma75.png used on input line 830.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSsigma150.png, id=570, 1003.75pt x 1003.75pt>
+File: img/CPSsigma150.png Graphic file (type png)
+ <use img/CPSsigma150.png>
+Package pdftex.def Info: img/CPSsigma150.png used on input line 834.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSsigma300.png, id=571, 1003.75pt x 1003.75pt>
+File: img/CPSsigma300.png Graphic file (type png)
+ <use img/CPSsigma300.png>
+Package pdftex.def Info: img/CPSsigma300.png used on input line 838.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noisyPOCsigma0.png, id=572, 1003.75pt x 1003.75pt>
+File: img/noisyPOCsigma0.png Graphic file (type png)
+
+<use img/noisyPOCsigma0.png>
+Package pdftex.def Info: img/noisyPOCsigma0.png used on input line 843.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noisyPOCsigma75.png, id=573, 1003.75pt x 1003.75pt>
+File: img/noisyPOCsigma75.png Graphic file (type png)
+
+<use img/noisyPOCsigma75.png>
+Package pdftex.def Info: img/noisyPOCsigma75.png used on input line 847.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noisyPOCsigma150.png, id=574, 1003.75pt x 1003.75pt>
+File: img/noisyPOCsigma150.png Graphic file (type png)
+
+<use img/noisyPOCsigma150.png>
+Package pdftex.def Info: img/noisyPOCsigma150.png used on input line 851.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/noisyPOCsigma300.png, id=575, 1003.75pt x 1003.75pt>
+File: img/noisyPOCsigma300.png Graphic file (type png)
+
+<use img/noisyPOCsigma300.png>
+Package pdftex.def Info: img/noisyPOCsigma300.png used on input line 855.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSRank1sigma0.png, id=576, 1003.75pt x 1003.75pt>
+File: img/CPSRank1sigma0.png Graphic file (type png)
+
+<use img/CPSRank1sigma0.png>
+Package pdftex.def Info: img/CPSRank1sigma0.png used on input line 860.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSRank1sigma75.png, id=577, 1003.75pt x 1003.75pt>
+File: img/CPSRank1sigma75.png Graphic file (type png)
+
+<use img/CPSRank1sigma75.png>
+Package pdftex.def Info: img/CPSRank1sigma75.png used on input line 864.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSRank1sigma150.png, id=578, 1003.75pt x 1003.75pt>
+File: img/CPSRank1sigma150.png Graphic file (type png)
+
+<use img/CPSRank1sigma150.png>
+Package pdftex.def Info: img/CPSRank1sigma150.png used on input line 868.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/CPSRank1sigma300.png, id=579, 1003.75pt x 1003.75pt>
+File: img/CPSRank1sigma300.png Graphic file (type png)
+
+<use img/CPSRank1sigma300.png>
+Package pdftex.def Info: img/CPSRank1sigma300.png used on input line 872.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceSigma0.png, id=580, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceSigma0.png Graphic file (type png)
+
+<use img/PhaseDifferenceSigma0.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma0.png used on input line 877.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceSigma75.png, id=581, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceSigma75.png Graphic file (type png)
+
+<use img/PhaseDifferenceSigma75.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma75.png used on input line 881.
+
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceSigma150.png, id=582, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceSigma150.png Graphic file (type png)
+
+<use img/PhaseDifferenceSigma150.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma150.png used on input line 885
+.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceSigma300.png, id=583, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceSigma300.png Graphic file (type png)
+
+<use img/PhaseDifferenceSigma300.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma300.png used on input line 889
+.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+
+LaTeX Warning: Float too large for page by 32.04242pt on input line 894.
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[19 <./img/noiselessCPPsigma0.png (PNG copy)> <./img/noiselessCPPsigma75.png (P
+NG copy)> <./img/noiselessCPPsigma150.png (PNG copy)> <./img/noiselessCPPsigma3
+00.png (PNG copy)> <./img/noiselessPOCsigma0.png (PNG copy)> <./img/noiselessPO
+Csigma75.png (PNG copy)> <./img/noiselessPOCsigma150.png (PNG copy)> <./img/noi
+selessPOCsigma300.png (PNG copy)>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[20 <./img/Im1sigma0.png (PNG copy)> <./img/Im1sigma75.png (PNG copy)> <./img/I
+m1sigma150.png (PNG copy)> <./img/Im1sigma300.png (PNG copy)> <./img/CPSsigma0.
+png (PNG copy)> <./img/CPSsigma75.png (PNG copy)> <./img/CPSsigma150.png (PNG c
+opy)> <./img/CPSsigma300.png (PNG copy)> <./img/noisyPOCsigma0.png (PNG copy)> 
+<./img/noisyPOCsigma75.png (PNG copy)> <./img/noisyPOCsigma150.png (PNG copy)> 
+<./img/noisyPOCsigma300.png (PNG copy)> <./img/CPSRank1sigma0.png (PNG copy)> <
+./img/CPSRank1sigma75.png (PNG copy)> <./img/CPSRank1sigma150.png (PNG copy)> <
+./img/CPSRank1sigma300.png (PNG copy)> <./img/PhaseDifferenceSigma0.png (PNG co
+py)> <./img/PhaseDifferenceSigma75.png (PNG copy)> <./img/PhaseDifferenceSigma1
+50.png (PNG copy)> <./img/PhaseDifferenceSigma300.png (PNG copy)>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[21]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[23]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[25] <img/ProjXI1sigma0.png, id=735, 1124.2pt x 843.15pt>
+File: img/ProjXI1sigma0.png Graphic file (type png)
+
+<use img/ProjXI1sigma0.png>
+Package pdftex.def Info: img/ProjXI1sigma0.png used on input line 1132.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXI1sigma75.png, id=736, 1124.2pt x 843.15pt>
+File: img/ProjXI1sigma75.png Graphic file (type png)
+
+<use img/ProjXI1sigma75.png>
+Package pdftex.def Info: img/ProjXI1sigma75.png used on input line 1136.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXI1sigma150.png, id=737, 1124.2pt x 843.15pt>
+File: img/ProjXI1sigma150.png Graphic file (type png)
+
+<use img/ProjXI1sigma150.png>
+Package pdftex.def Info: img/ProjXI1sigma150.png used on input line 1140.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXI1sigma300.png, id=738, 1124.2pt x 843.15pt>
+File: img/ProjXI1sigma300.png Graphic file (type png)
+
+<use img/ProjXI1sigma300.png>
+Package pdftex.def Info: img/ProjXI1sigma300.png used on input line 1144.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXI2sigma0.png, id=739, 1124.2pt x 843.15pt>
+File: img/ProjXI2sigma0.png Graphic file (type png)
+
+<use img/ProjXI2sigma0.png>
+Package pdftex.def Info: img/ProjXI2sigma0.png used on input line 1149.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXI2sigma75.png, id=740, 1124.2pt x 843.15pt>
+File: img/ProjXI2sigma75.png Graphic file (type png)
+
+<use img/ProjXI2sigma75.png>
+Package pdftex.def Info: img/ProjXI2sigma75.png used on input line 1153.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXI2sigma150.png, id=741, 1124.2pt x 843.15pt>
+File: img/ProjXI2sigma150.png Graphic file (type png)
+
+<use img/ProjXI2sigma150.png>
+Package pdftex.def Info: img/ProjXI2sigma150.png used on input line 1157.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXI2sigma300.png, id=742, 1124.2pt x 843.15pt>
+File: img/ProjXI2sigma300.png Graphic file (type png)
+
+<use img/ProjXI2sigma300.png>
+Package pdftex.def Info: img/ProjXI2sigma300.png used on input line 1161.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI1sigma0.png, id=743, 1124.2pt x 843.15pt>
+File: img/ProjYI1sigma0.png Graphic file (type png)
+
+<use img/ProjYI1sigma0.png>
+Package pdftex.def Info: img/ProjYI1sigma0.png used on input line 1166.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI1sigma75.png, id=744, 1124.2pt x 843.15pt>
+File: img/ProjYI1sigma75.png Graphic file (type png)
+
+<use img/ProjYI1sigma75.png>
+Package pdftex.def Info: img/ProjYI1sigma75.png used on input line 1170.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI1sigma150.png, id=745, 1124.2pt x 843.15pt>
+File: img/ProjYI1sigma150.png Graphic file (type png)
+
+<use img/ProjYI1sigma150.png>
+Package pdftex.def Info: img/ProjYI1sigma150.png used on input line 1174.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI1sigma300.png, id=746, 1124.2pt x 843.15pt>
+File: img/ProjYI1sigma300.png Graphic file (type png)
+
+<use img/ProjYI1sigma300.png>
+Package pdftex.def Info: img/ProjYI1sigma300.png used on input line 1178.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI2sigma0.png, id=747, 1124.2pt x 843.15pt>
+File: img/ProjYI2sigma0.png Graphic file (type png)
+
+<use img/ProjYI2sigma0.png>
+Package pdftex.def Info: img/ProjYI2sigma0.png used on input line 1183.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI2sigma75.png, id=748, 1124.2pt x 843.15pt>
+File: img/ProjYI2sigma75.png Graphic file (type png)
+
+<use img/ProjYI2sigma75.png>
+Package pdftex.def Info: img/ProjYI2sigma75.png used on input line 1187.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI2sigma150.png, id=749, 1124.2pt x 843.15pt>
+File: img/ProjYI2sigma150.png Graphic file (type png)
+
+<use img/ProjYI2sigma150.png>
+Package pdftex.def Info: img/ProjYI2sigma150.png used on input line 1191.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYI2sigma300.png, id=750, 1124.2pt x 843.15pt>
+File: img/ProjYI2sigma300.png Graphic file (type png)
+
+<use img/ProjYI2sigma300.png>
+Package pdftex.def Info: img/ProjYI2sigma300.png used on input line 1195.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXPCsigma0.png, id=751, 1124.2pt x 843.15pt>
+File: img/ProjXPCsigma0.png Graphic file (type png)
+
+<use img/ProjXPCsigma0.png>
+Package pdftex.def Info: img/ProjXPCsigma0.png used on input line 1206.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXPCsigma75.png, id=752, 1124.2pt x 843.15pt>
+File: img/ProjXPCsigma75.png Graphic file (type png)
+
+<use img/ProjXPCsigma75.png>
+Package pdftex.def Info: img/ProjXPCsigma75.png used on input line 1210.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXPCsigma150.png, id=753, 1124.2pt x 843.15pt>
+File: img/ProjXPCsigma150.png Graphic file (type png)
+
+<use img/ProjXPCsigma150.png>
+Package pdftex.def Info: img/ProjXPCsigma150.png used on input line 1214.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjXPCsigma300.png, id=754, 1124.2pt x 843.15pt>
+File: img/ProjXPCsigma300.png Graphic file (type png)
+
+<use img/ProjXPCsigma300.png>
+Package pdftex.def Info: img/ProjXPCsigma300.png used on input line 1218.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYPCsigma0.png, id=755, 1124.2pt x 843.15pt>
+File: img/ProjYPCsigma0.png Graphic file (type png)
+
+<use img/ProjYPCsigma0.png>
+Package pdftex.def Info: img/ProjYPCsigma0.png used on input line 1223.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYPCsigma75.png, id=756, 1124.2pt x 843.15pt>
+File: img/ProjYPCsigma75.png Graphic file (type png)
+
+<use img/ProjYPCsigma75.png>
+Package pdftex.def Info: img/ProjYPCsigma75.png used on input line 1227.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYPCsigma150.png, id=757, 1124.2pt x 843.15pt>
+File: img/ProjYPCsigma150.png Graphic file (type png)
+
+<use img/ProjYPCsigma150.png>
+Package pdftex.def Info: img/ProjYPCsigma150.png used on input line 1231.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/ProjYPCsigma300.png, id=758, 1124.2pt x 843.15pt>
+File: img/ProjYPCsigma300.png Graphic file (type png)
+
+<use img/ProjYPCsigma300.png>
+Package pdftex.def Info: img/ProjYPCsigma300.png used on input line 1235.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[26]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[27 <./img/ProjXI1sigma0.png (PNG copy)> <./img/ProjXI1sigma75.png (PNG copy)> 
+<./img/ProjXI1sigma150.png (PNG copy)> <./img/ProjXI1sigma300.png (PNG copy)> <
+./img/ProjXI2sigma0.png (PNG copy)> <./img/ProjXI2sigma75.png (PNG copy)> <./im
+g/ProjXI2sigma150.png (PNG copy)> <./img/ProjXI2sigma300.png (PNG copy)> <./img
+/ProjYI1sigma0.png (PNG copy)> <./img/ProjYI1sigma75.png (PNG copy)> <./img/Pro
+jYI1sigma150.png (PNG copy)> <./img/ProjYI1sigma300.png (PNG copy)> <./img/Proj
+YI2sigma0.png (PNG copy)> <./img/ProjYI2sigma75.png (PNG copy)> <./img/ProjYI2s
+igma150.png (PNG copy)> <./img/ProjYI2sigma300.png (PNG copy)>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[28 <./img/ProjXPCsigma0.png (PNG copy)> <./img/ProjXPCsigma75.png (PNG copy)> 
+<./img/ProjXPCsigma150.png (PNG copy)> <./img/ProjXPCsigma300.png (PNG copy)> <
+./img/ProjYPCsigma0.png (PNG copy)> <./img/ProjYPCsigma75.png (PNG copy)> <./im
+g/ProjYPCsigma150.png (PNG copy)> <./img/ProjYPCsigma300.png (PNG copy)>]
+File: img/PhaseDifferenceSigma0.png Graphic file (type png)
+
+<use img/PhaseDifferenceSigma0.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma0.png used on input line 1266.
+
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+File: img/PhaseDifferenceSigma75.png Graphic file (type png)
+ <use img/PhaseDifferenceSigma75.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma75.png used on input line 1270
+.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+File: img/PhaseDifferenceSigma150.png Graphic file (type png)
+
+<use img/PhaseDifferenceSigma150.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma150.png used on input line 127
+4.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+File: img/PhaseDifferenceSigma300.png Graphic file (type png)
+ <use img/PhaseDifferenceSigma300.png>
+Package pdftex.def Info: img/PhaseDifferenceSigma300.png used on input line 127
+8.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceRank1Sigma0.png, id=793, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceRank1Sigma0.png Graphic file (type png)
+
+<use img/PhaseDifferenceRank1Sigma0.png>
+Package pdftex.def Info: img/PhaseDifferenceRank1Sigma0.png used on input line 
+1283.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceRank1Sigma75.png, id=794, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceRank1Sigma75.png Graphic file (type png)
+
+<use img/PhaseDifferenceRank1Sigma75.png>
+Package pdftex.def Info: img/PhaseDifferenceRank1Sigma75.png used on input line
+ 1287.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceRank1Sigma150.png, id=795, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceRank1Sigma150.png Graphic file (type png)
+
+<use img/PhaseDifferenceRank1Sigma150.png>
+Package pdftex.def Info: img/PhaseDifferenceRank1Sigma150.png used on input lin
+e 1291.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/PhaseDifferenceRank1Sigma300.png, id=796, 1003.75pt x 1003.75pt>
+File: img/PhaseDifferenceRank1Sigma300.png Graphic file (type png)
+
+<use img/PhaseDifferenceRank1Sigma300.png>
+Package pdftex.def Info: img/PhaseDifferenceRank1Sigma300.png used on input lin
+e 1295.
+(pdftex.def)             Requested size: 128.0374pt x 128.0262pt.
+
+<img/Hoge1DXSigma0.png, id=797, 1124.2pt x 843.15pt>
+File: img/Hoge1DXSigma0.png Graphic file (type png)
+
+<use img/Hoge1DXSigma0.png>
+Package pdftex.def Info: img/Hoge1DXSigma0.png used on input line 1300.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/Hoge1DXSigma75.png, id=798, 1124.2pt x 843.15pt>
+File: img/Hoge1DXSigma75.png Graphic file (type png)
+
+<use img/Hoge1DXSigma75.png>
+Package pdftex.def Info: img/Hoge1DXSigma75.png used on input line 1304.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/Hoge1DXSigma150.png, id=799, 1124.2pt x 843.15pt>
+File: img/Hoge1DXSigma150.png Graphic file (type png)
+
+<use img/Hoge1DXSigma150.png>
+Package pdftex.def Info: img/Hoge1DXSigma150.png used on input line 1308.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/Hoge1DXSigma300.png, id=800, 1124.2pt x 843.15pt>
+File: img/Hoge1DXSigma300.png Graphic file (type png)
+
+<use img/Hoge1DXSigma300.png>
+Package pdftex.def Info: img/Hoge1DXSigma300.png used on input line 1312.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/Hoge1DYSigma0.png, id=801, 1124.2pt x 843.15pt>
+File: img/Hoge1DYSigma0.png Graphic file (type png)
+
+<use img/Hoge1DYSigma0.png>
+Package pdftex.def Info: img/Hoge1DYSigma0.png used on input line 1317.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/Hoge1DYSigma75.png, id=802, 1124.2pt x 843.15pt>
+File: img/Hoge1DYSigma75.png Graphic file (type png)
+
+<use img/Hoge1DYSigma75.png>
+Package pdftex.def Info: img/Hoge1DYSigma75.png used on input line 1321.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/Hoge1DYSigma150.png, id=803, 1124.2pt x 843.15pt>
+File: img/Hoge1DYSigma150.png Graphic file (type png)
+
+<use img/Hoge1DYSigma150.png>
+Package pdftex.def Info: img/Hoge1DYSigma150.png used on input line 1325.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<img/Hoge1DYSigma300.png, id=804, 1124.2pt x 843.15pt>
+File: img/Hoge1DYSigma300.png Graphic file (type png)
+
+<use img/Hoge1DYSigma300.png>
+Package pdftex.def Info: img/Hoge1DYSigma300.png used on input line 1329.
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[29]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[30 <./img/PhaseDifferenceRank1Sigma0.png (PNG copy)> <./img/PhaseDifferenceRan
+k1Sigma75.png (PNG copy)> <./img/PhaseDifferenceRank1Sigma150.png (PNG copy)> <
+./img/PhaseDifferenceRank1Sigma300.png (PNG copy)> <./img/Hoge1DXSigma0.png (PN
+G copy)> <./img/Hoge1DXSigma75.png (PNG copy)> <./img/Hoge1DXSigma150.png (PNG 
+copy)> <./img/Hoge1DXSigma300.png (PNG copy)> <./img/Hoge1DYSigma0.png (PNG cop
+y)> <./img/Hoge1DYSigma75.png (PNG copy)> <./img/Hoge1DYSigma150.png (PNG copy)
+> <./img/Hoge1DYSigma300.png (PNG copy)>]
+<img/GCsigma0.png, id=833, 1589.94pt x 1589.94pt>
+File: img/GCsigma0.png Graphic file (type png)
+ <use img/GCsigma0.png>
+Package pdftex.def Info: img/GCsigma0.png used on input line 1369.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/GCsigma75.png, id=834, 1589.94pt x 1589.94pt>
+File: img/GCsigma75.png Graphic file (type png)
+ <use img/GCsigma75.png>
+Package pdftex.def Info: img/GCsigma75.png used on input line 1373.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/GCsigma150.png, id=835, 1589.94pt x 1589.94pt>
+File: img/GCsigma150.png Graphic file (type png)
+ <use img/GCsigma150.png>
+Package pdftex.def Info: img/GCsigma150.png used on input line 1377.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/GCsigma300.png, id=836, 1589.94pt x 1589.94pt>
+File: img/GCsigma300.png Graphic file (type png)
+ <use img/GCsigma300.png>
+Package pdftex.def Info: img/GCsigma300.png used on input line 1381.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/GCRank1sigma0.png, id=837, 1589.94pt x 1589.94pt>
+File: img/GCRank1sigma0.png Graphic file (type png)
+
+<use img/GCRank1sigma0.png>
+Package pdftex.def Info: img/GCRank1sigma0.png used on input line 1386.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/GCRank1sigma75.png, id=838, 1589.94pt x 1589.94pt>
+File: img/GCRank1sigma75.png Graphic file (type png)
+
+<use img/GCRank1sigma75.png>
+Package pdftex.def Info: img/GCRank1sigma75.png used on input line 1390.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/GCRank1sigma150.png, id=839, 1589.94pt x 1589.94pt>
+File: img/GCRank1sigma150.png Graphic file (type png)
+
+<use img/GCRank1sigma150.png>
+Package pdftex.def Info: img/GCRank1sigma150.png used on input line 1394.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/GCRank1sigma300.png, id=840, 1589.94pt x 1589.94pt>
+File: img/GCRank1sigma300.png Graphic file (type png)
+
+<use img/GCRank1sigma300.png>
+Package pdftex.def Info: img/GCRank1sigma300.png used on input line 1398.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/NGCRank1sigma0.png, id=841, 1589.94pt x 1589.94pt>
+File: img/NGCRank1sigma0.png Graphic file (type png)
+
+<use img/NGCRank1sigma0.png>
+Package pdftex.def Info: img/NGCRank1sigma0.png used on input line 1403.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/NGCRank1sigma75.png, id=842, 1589.94pt x 1589.94pt>
+File: img/NGCRank1sigma75.png Graphic file (type png)
+
+<use img/NGCRank1sigma75.png>
+Package pdftex.def Info: img/NGCRank1sigma75.png used on input line 1407.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/NGCRank1sigma150.png, id=843, 1589.94pt x 1589.94pt>
+File: img/NGCRank1sigma150.png Graphic file (type png)
+
+<use img/NGCRank1sigma150.png>
+Package pdftex.def Info: img/NGCRank1sigma150.png used on input line 1411.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+
+<img/NGCRank1sigma300.png, id=844, 1589.94pt x 1589.94pt>
+File: img/NGCRank1sigma300.png Graphic file (type png)
+
+<use img/NGCRank1sigma300.png>
+Package pdftex.def Info: img/NGCRank1sigma300.png used on input line 1415.
+(pdftex.def)             Requested size: 128.0374pt x 128.02264pt.
+) (./Evaluation.tex
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[31]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[32 <./img/GCsigma0.png (PNG copy)> <./img/GCsigma75.png (PNG copy)> <./img/GCs
+igma150.png (PNG copy)> <./img/GCsigma300.png (PNG copy)> <./img/GCRank1sigma0.
+png (PNG copy)> <./img/GCRank1sigma75.png (PNG copy)> <./img/GCRank1sigma150.pn
+g (PNG copy)> <./img/GCRank1sigma300.png (PNG copy)> <./img/NGCRank1sigma0.png 
+(PNG copy)> <./img/NGCRank1sigma75.png (PNG copy)> <./img/NGCRank1sigma150.png 
+(PNG copy)> <./img/NGCRank1sigma300.png (PNG copy)>]
+<img/Cannes.png, id=860, 513.92pt x 513.92pt>
+File: img/Cannes.png Graphic file (type png)
+ <use img/Cannes.png>
+Package pdftex.def Info: img/Cannes.png used on input line 12.
+(pdftex.def)             Requested size: 256.0748pt x 256.07324pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[33
+
+ <./img/Cannes.png (PNG copy)>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 80.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 80.
+
+
+Overfull \hbox (153.88309pt too wide) in paragraph at lines 148--149
+\OT1/cmr/m/n/12 si-ble shifts ob-tained by tak-ing two val-ues from $[\OMS/cmsy
+/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 875\OML/cmm/m/it/
+12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 75\
+OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/c
+mr/m/n/12 5\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/i
+t/12 :\OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 
+0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 125\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\O
+T1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 07\OML/cmm/m/it/12 ; \OMS/cmsy
+/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 02\OML/cmm/m/it/1
+2 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1
+/cmr/m/n/12 03\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/
+n/12 125\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 2
+5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5\OML/cm
+m/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 75\OML/cmm/m/it/
+12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 875]$.
+ []
+
+
+Underfull \vbox (badness 7238) has occurred while \output is active []
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[34] <img/gradientEvaluation.pdf, id=929, 451.6875pt x 271.0125pt>
+File: img/gradientEvaluation.pdf Graphic file (type pdf)
+
+<use img/gradientEvaluation.pdf>
+Package pdftex.def Info: img/gradientEvaluation.pdf used on input line 161.
+(pdftex.def)             Requested size: 256.0748pt x 153.65166pt.
+
+<img/gradientEvaluationByShift.pdf, id=930, 451.6875pt x 271.0125pt>
+File: img/gradientEvaluationByShift.pdf Graphic file (type pdf)
+
+<use img/gradientEvaluationByShift.pdf>
+Package pdftex.def Info: img/gradientEvaluationByShift.pdf used on input line 1
+64.
+(pdftex.def)             Requested size: 256.0748pt x 153.65166pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[35] <Results/BestSigmaByShiftAndNoise.png, id=939, 578.16pt x 433.62pt>
+File: Results/BestSigmaByShiftAndNoise.png Graphic file (type png)
+
+<use Results/BestSigmaByShiftAndNoise.png>
+Package pdftex.def Info: Results/BestSigmaByShiftAndNoise.png used on input lin
+e 249.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/RMSEByShiftAndNoise.png, id=940, 578.16pt x 433.62pt>
+File: Results/RMSEByShiftAndNoise.png Graphic file (type png)
+
+<use Results/RMSEByShiftAndNoise.png>
+Package pdftex.def Info: Results/RMSEByShiftAndNoise.png used on input line 253
+.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[36 <./img/gradientEvaluation.pdf> <./img/gradientEvaluationByShift.pdf>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[37] <Results/avgStdOf10BestByShiftAndNoise.png, id=987, 578.16pt x 433.62pt>
+File: Results/avgStdOf10BestByShiftAndNoise.png Graphic file (type png)
+
+<use Results/avgStdOf10BestByShiftAndNoise.png>
+Package pdftex.def Info: Results/avgStdOf10BestByShiftAndNoise.png used on inpu
+t line 270.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/DifWith06ByShiftAndNoise.png, id=988, 578.16pt x 433.62pt>
+File: Results/DifWith06ByShiftAndNoise.png Graphic file (type png)
+
+<use Results/DifWith06ByShiftAndNoise.png>
+Package pdftex.def Info: Results/DifWith06ByShiftAndNoise.png used on input lin
+e 282.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/BestSigmaByImageTypeAndNoise.png, id=991, 578.16pt x 433.62pt>
+File: Results/BestSigmaByImageTypeAndNoise.png Graphic file (type png)
+
+<use Results/BestSigmaByImageTypeAndNoise.png>
+Package pdftex.def Info: Results/BestSigmaByImageTypeAndNoise.png used on input
+ line 295.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/RMSEByImageTypeAndNoise.png, id=992, 578.16pt x 433.62pt>
+File: Results/RMSEByImageTypeAndNoise.png Graphic file (type png)
+
+<use Results/RMSEByImageTypeAndNoise.png>
+Package pdftex.def Info: Results/RMSEByImageTypeAndNoise.png used on input line
+ 299.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[38 <./Results/BestSigmaByShiftAndNoise.png (PNG copy)> <./Results/RMSEByShiftA
+ndNoise.png (PNG copy)> <./Results/avgStdOf10BestByShiftAndNoise.png (PNG copy)
+> <./Results/DifWith06ByShiftAndNoise.png (PNG copy)>]
+<Results/ErrorByBlurAndNoiseForShift1.png, id=999, 578.16pt x 433.62pt>
+File: Results/ErrorByBlurAndNoiseForShift1.png Graphic file (type png)
+
+<use Results/ErrorByBlurAndNoiseForShift1.png>
+Package pdftex.def Info: Results/ErrorByBlurAndNoiseForShift1.png used on input
+ line 313.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/ErrorByBlurAndNoiseForShift2.png, id=1000, 578.16pt x 433.62pt>
+File: Results/ErrorByBlurAndNoiseForShift2.png Graphic file (type png)
+
+<use Results/ErrorByBlurAndNoiseForShift2.png>
+Package pdftex.def Info: Results/ErrorByBlurAndNoiseForShift2.png used on input
+ line 317.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/ErrorByBlurAndNoiseForShift3.png, id=1001, 578.16pt x 433.62pt>
+File: Results/ErrorByBlurAndNoiseForShift3.png Graphic file (type png)
+
+<use Results/ErrorByBlurAndNoiseForShift3.png>
+Package pdftex.def Info: Results/ErrorByBlurAndNoiseForShift3.png used on input
+ line 322.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/ErrorByBlurAndNoiseForShift4.png, id=1002, 578.16pt x 433.62pt>
+File: Results/ErrorByBlurAndNoiseForShift4.png Graphic file (type png)
+
+<use Results/ErrorByBlurAndNoiseForShift4.png>
+Package pdftex.def Info: Results/ErrorByBlurAndNoiseForShift4.png used on input
+ line 326.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/ErrorByBlurAndNoiseForShift5.png, id=1003, 578.16pt x 433.62pt>
+File: Results/ErrorByBlurAndNoiseForShift5.png Graphic file (type png)
+
+<use Results/ErrorByBlurAndNoiseForShift5.png>
+Package pdftex.def Info: Results/ErrorByBlurAndNoiseForShift5.png used on input
+ line 331.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+<Results/ErrorByBlurAndNoiseForShift6.png, id=1004, 578.16pt x 433.62pt>
+File: Results/ErrorByBlurAndNoiseForShift6.png Graphic file (type png)
+
+<use Results/ErrorByBlurAndNoiseForShift6.png>
+Package pdftex.def Info: Results/ErrorByBlurAndNoiseForShift6.png used on input
+ line 335.
+(pdftex.def)             Requested size: 230.46576pt x 172.84944pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[39 <./Results/BestSigmaByImageTypeAndNoise.png (PNG copy)> <./Results/RMSEByIm
+ageTypeAndNoise.png (PNG copy)>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[40 <./Results/ErrorByBlurAndNoiseForShift1.png (PNG copy)> <./Results/ErrorByB
+lurAndNoiseForShift2.png (PNG copy)> <./Results/ErrorByBlurAndNoiseForShift3.pn
+g (PNG copy)> <./Results/ErrorByBlurAndNoiseForShift4.png (PNG copy)> <./Result
+s/ErrorByBlurAndNoiseForShift5.png (PNG copy)> <./Results/ErrorByBlurAndNoiseFo
+rShift6.png (PNG copy)>]
+<img/image2NoiseLevel1.png, id=1018, 1003.75pt x 1003.75pt>
+File: img/image2NoiseLevel1.png Graphic file (type png)
+
+<use img/image2NoiseLevel1.png>
+Package pdftex.def Info: img/image2NoiseLevel1.png used on input line 354.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/image2NoiseLevel2.png, id=1019, 1003.75pt x 1003.75pt>
+File: img/image2NoiseLevel2.png Graphic file (type png)
+
+<use img/image2NoiseLevel2.png>
+Package pdftex.def Info: img/image2NoiseLevel2.png used on input line 357.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/image2NoiseLevel3.png, id=1020, 1003.75pt x 1003.75pt>
+File: img/image2NoiseLevel3.png Graphic file (type png)
+
+<use img/image2NoiseLevel3.png>
+Package pdftex.def Info: img/image2NoiseLevel3.png used on input line 360.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/image2NoiseLevel4.png, id=1021, 1003.75pt x 1003.75pt>
+File: img/image2NoiseLevel4.png Graphic file (type png)
+
+<use img/image2NoiseLevel4.png>
+Package pdftex.def Info: img/image2NoiseLevel4.png used on input line 363.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/image2NoiseLevel5.png, id=1022, 1003.75pt x 1003.75pt>
+File: img/image2NoiseLevel5.png Graphic file (type png)
+
+<use img/image2NoiseLevel5.png>
+Package pdftex.def Info: img/image2NoiseLevel5.png used on input line 366.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/imageNoiseLevel1.png, id=1023, 1003.75pt x 1003.75pt>
+File: img/imageNoiseLevel1.png Graphic file (type png)
+
+<use img/imageNoiseLevel1.png>
+Package pdftex.def Info: img/imageNoiseLevel1.png used on input line 370.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/imageNoiseLevel2.png, id=1024, 1003.75pt x 1003.75pt>
+File: img/imageNoiseLevel2.png Graphic file (type png)
+
+<use img/imageNoiseLevel2.png>
+Package pdftex.def Info: img/imageNoiseLevel2.png used on input line 374.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/imageNoiseLevel3.png, id=1025, 1003.75pt x 1003.75pt>
+File: img/imageNoiseLevel3.png Graphic file (type png)
+
+<use img/imageNoiseLevel3.png>
+Package pdftex.def Info: img/imageNoiseLevel3.png used on input line 378.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/imageNoiseLevel4.png, id=1026, 1003.75pt x 1003.75pt>
+File: img/imageNoiseLevel4.png Graphic file (type png)
+
+<use img/imageNoiseLevel4.png>
+Package pdftex.def Info: img/imageNoiseLevel4.png used on input line 382.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/imageNoiseLevel5.png, id=1027, 1003.75pt x 1003.75pt>
+File: img/imageNoiseLevel5.png Graphic file (type png)
+
+<use img/imageNoiseLevel5.png>
+Package pdftex.def Info: img/imageNoiseLevel5.png used on input line 386.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--389
+[]$[]$$[]$$[]$$[]$$[]$
+ []
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[41
+
+ <./img/image2NoiseLevel1.png (PNG copy)> <./img/image2NoiseLevel2.png (PNG cop
+y)> <./img/image2NoiseLevel3.png (PNG copy)> <./img/image2NoiseLevel4.png (PNG 
+copy)> <./img/image2NoiseLevel5.png (PNG copy)> <./img/imageNoiseLevel1.png (PN
+G copy)> <./img/imageNoiseLevel2.png (PNG copy)> <./img/imageNoiseLevel3.png (P
+NG copy)> <./img/imageNoiseLevel4.png (PNG copy)> <./img/imageNoiseLevel5.png (
+PNG copy)>]
+Overfull \hbox (14.27869pt too wide) in paragraph at lines 413--448
+[]  [] 
+ []
+
+
+Overfull \hbox (13.39395pt too wide) in paragraph at lines 460--494
+[]  [] 
+ []
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[42]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[43]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[44] <img/GroupedTop10ByNoise.pdf, id=1063, 451.6875pt x 271.0125pt>
+File: img/GroupedTop10ByNoise.pdf Graphic file (type pdf)
+
+<use img/GroupedTop10ByNoise.pdf>
+Package pdftex.def Info: img/GroupedTop10ByNoise.pdf used on input line 539.
+(pdftex.def)             Requested size: 256.0748pt x 153.65166pt.
+
+<img/groupedTop10ByShift.pdf, id=1064, 451.6875pt x 271.0125pt>
+File: img/groupedTop10ByShift.pdf Graphic file (type pdf)
+
+<use img/groupedTop10ByShift.pdf>
+Package pdftex.def Info: img/groupedTop10ByShift.pdf used on input line 543.
+(pdftex.def)             Requested size: 256.0748pt x 153.65166pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[45 <./img/GroupedTop10ByNoise.pdf> <./img/groupedTop10ByShift.pdf>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[46]
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[47]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[48] <img/testOcclusion1.png, id=1143, 1003.75pt x 1003.75pt>
+File: img/testOcclusion1.png Graphic file (type png)
+
+<use img/testOcclusion1.png>
+Package pdftex.def Info: img/testOcclusion1.png used on input line 685.
+(pdftex.def)             Requested size: 76.8193pt x 76.8096pt.
+
+<img/testOcclusion2.png, id=1144, 1003.75pt x 1003.75pt>
+File: img/testOcclusion2.png Graphic file (type png)
+
+<use img/testOcclusion2.png>
+Package pdftex.def Info: img/testOcclusion2.png used on input line 689.
+(pdftex.def)             Requested size: 76.8193pt x 76.8096pt.
+
+<img/testOcclusion3.png, id=1145, 1003.75pt x 1003.75pt>
+File: img/testOcclusion3.png Graphic file (type png)
+
+<use img/testOcclusion3.png>
+Package pdftex.def Info: img/testOcclusion3.png used on input line 693.
+(pdftex.def)             Requested size: 76.8193pt x 76.8096pt.
+
+<img/testOcclusion4.png, id=1146, 1003.75pt x 1003.75pt>
+File: img/testOcclusion4.png Graphic file (type png)
+
+<use img/testOcclusion4.png>
+Package pdftex.def Info: img/testOcclusion4.png used on input line 697.
+(pdftex.def)             Requested size: 76.8193pt x 76.8096pt.
+
+<img/testOcclusion5.png, id=1147, 1003.75pt x 1003.75pt>
+File: img/testOcclusion5.png Graphic file (type png)
+
+<use img/testOcclusion5.png>
+Package pdftex.def Info: img/testOcclusion5.png used on input line 701.
+(pdftex.def)             Requested size: 76.8193pt x 76.8096pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[49 <./img/testOcclusion1.png (PNG copy)> <./img/testOcclusion2.png (PNG copy)>
+ <./img/testOcclusion3.png (PNG copy)> <./img/testOcclusion4.png (PNG copy)> <.
+/img/testOcclusion5.png (PNG copy)>]
+Overfull \hbox (14.70648pt too wide) in paragraph at lines 738--754
+[]  [] 
+ []
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[50] <img/aliasedImg1L1.png, id=1169, 1003.75pt x 1003.75pt>
+File: img/aliasedImg1L1.png Graphic file (type png)
+
+<use img/aliasedImg1L1.png>
+Package pdftex.def Info: img/aliasedImg1L1.png used on input line 787.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg1L2.png, id=1170, 1003.75pt x 1003.75pt>
+File: img/aliasedImg1L2.png Graphic file (type png)
+
+<use img/aliasedImg1L2.png>
+Package pdftex.def Info: img/aliasedImg1L2.png used on input line 790.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg1L3.png, id=1171, 1003.75pt x 1003.75pt>
+File: img/aliasedImg1L3.png Graphic file (type png)
+
+<use img/aliasedImg1L3.png>
+Package pdftex.def Info: img/aliasedImg1L3.png used on input line 793.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg1L4.png, id=1172, 1003.75pt x 1003.75pt>
+File: img/aliasedImg1L4.png Graphic file (type png)
+
+<use img/aliasedImg1L4.png>
+Package pdftex.def Info: img/aliasedImg1L4.png used on input line 796.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg1L5.png, id=1173, 1003.75pt x 1003.75pt>
+File: img/aliasedImg1L5.png Graphic file (type png)
+
+<use img/aliasedImg1L5.png>
+Package pdftex.def Info: img/aliasedImg1L5.png used on input line 799.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg2L1.png, id=1174, 1003.75pt x 1003.75pt>
+File: img/aliasedImg2L1.png Graphic file (type png)
+
+<use img/aliasedImg2L1.png>
+Package pdftex.def Info: img/aliasedImg2L1.png used on input line 802.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg2L2.png, id=1175, 1003.75pt x 1003.75pt>
+File: img/aliasedImg2L2.png Graphic file (type png)
+
+<use img/aliasedImg2L2.png>
+Package pdftex.def Info: img/aliasedImg2L2.png used on input line 805.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg2L3.png, id=1176, 1003.75pt x 1003.75pt>
+File: img/aliasedImg2L3.png Graphic file (type png)
+
+<use img/aliasedImg2L3.png>
+Package pdftex.def Info: img/aliasedImg2L3.png used on input line 808.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg2L4.png, id=1177, 1003.75pt x 1003.75pt>
+File: img/aliasedImg2L4.png Graphic file (type png)
+
+<use img/aliasedImg2L4.png>
+Package pdftex.def Info: img/aliasedImg2L4.png used on input line 811.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImg2L5.png, id=1178, 1003.75pt x 1003.75pt>
+File: img/aliasedImg2L5.png Graphic file (type png)
+
+<use img/aliasedImg2L5.png>
+Package pdftex.def Info: img/aliasedImg2L5.png used on input line 814.
+(pdftex.def)             Requested size: 102.42834pt x 102.4179pt.
+
+<img/aliasedImgDifL1.png, id=1179, 983.675pt x 983.675pt>
+File: img/aliasedImgDifL1.png Graphic file (type png)
+
+<use img/aliasedImgDifL1.png>
+Package pdftex.def Info: img/aliasedImgDifL1.png used on input line 817.
+(pdftex.def)             Requested size: 102.42834pt x 102.42586pt.
+
+<img/aliasedImgDifL2.png, id=1180, 983.675pt x 983.675pt>
+File: img/aliasedImgDifL2.png Graphic file (type png)
+
+<use img/aliasedImgDifL2.png>
+Package pdftex.def Info: img/aliasedImgDifL2.png used on input line 821.
+(pdftex.def)             Requested size: 102.42834pt x 102.42586pt.
+
+<img/aliasedImgDifL3.png, id=1181, 983.675pt x 983.675pt>
+File: img/aliasedImgDifL3.png Graphic file (type png)
+
+<use img/aliasedImgDifL3.png>
+Package pdftex.def Info: img/aliasedImgDifL3.png used on input line 825.
+(pdftex.def)             Requested size: 102.42834pt x 102.42586pt.
+
+<img/aliasedImgDifL4.png, id=1182, 983.675pt x 983.675pt>
+File: img/aliasedImgDifL4.png Graphic file (type png)
+
+<use img/aliasedImgDifL4.png>
+Package pdftex.def Info: img/aliasedImgDifL4.png used on input line 829.
+(pdftex.def)             Requested size: 102.42834pt x 102.42586pt.
+
+<img/aliasedImgDifL5.png, id=1183, 983.675pt x 983.675pt>
+File: img/aliasedImgDifL5.png Graphic file (type png)
+
+<use img/aliasedImgDifL5.png>
+Package pdftex.def Info: img/aliasedImgDifL5.png used on input line 833.
+(pdftex.def)             Requested size: 102.42834pt x 102.42586pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[51 <./img/aliasedImg1L1.png (PNG copy)> <./img/aliasedImg1L2.png (PNG copy)> <
+./img/aliasedImg1L3.png (PNG copy)> <./img/aliasedImg1L4.png (PNG copy)> <./img
+/aliasedImg1L5.png (PNG copy)> <./img/aliasedImg2L1.png (PNG copy)> <./img/alia
+sedImg2L2.png (PNG copy)> <./img/aliasedImg2L3.png (PNG copy)> <./img/aliasedIm
+g2L4.png (PNG copy)> <./img/aliasedImg2L5.png (PNG copy)> <./img/aliasedImgDifL
+1.png (PNG copy)> <./img/aliasedImgDifL2.png (PNG copy)> <./img/aliasedImgDifL3
+.png (PNG copy)> <./img/aliasedImgDifL4.png (PNG copy)> <./img/aliasedImgDifL5.
+png (PNG copy)>]
+<img/tableAliasingTop10ByLevel.pdf, id=1195, 451.6875pt x 271.0125pt>
+File: img/tableAliasingTop10ByLevel.pdf Graphic file (type pdf)
+
+<use img/tableAliasingTop10ByLevel.pdf>
+Package pdftex.def Info: img/tableAliasingTop10ByLevel.pdf used on input line 8
+44.
+(pdftex.def)             Requested size: 384.1122pt x 230.48163pt.
+
+<img/tableAliasingTop10ByShift4.pdf, id=1198, 451.6875pt x 271.0125pt>
+File: img/tableAliasingTop10ByShift4.pdf Graphic file (type pdf)
+
+<use img/tableAliasingTop10ByShift4.pdf>
+Package pdftex.def Info: img/tableAliasingTop10ByShift4.pdf used on input line 
+854.
+(pdftex.def)             Requested size: 256.0748pt x 153.65166pt.
+
+<img/tableAliasingTop10ByShift8.pdf, id=1199, 451.6875pt x 271.0125pt>
+File: img/tableAliasingTop10ByShift8.pdf Graphic file (type pdf)
+
+<use img/tableAliasingTop10ByShift8.pdf>
+Package pdftex.def Info: img/tableAliasingTop10ByShift8.pdf used on input line 
+857.
+(pdftex.def)             Requested size: 256.0748pt x 153.65166pt.
+
+<img/tableAliasingTop10ByShift13.pdf, id=1201, 451.6875pt x 271.0125pt>
+File: img/tableAliasingTop10ByShift13.pdf Graphic file (type pdf)
+
+<use img/tableAliasingTop10ByShift13.pdf>
+Package pdftex.def Info: img/tableAliasingTop10ByShift13.pdf used on input line
+ 866.
+(pdftex.def)             Requested size: 332.89412pt x 199.74799pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[52 <./img/tableAliasingTop10ByLevel.pdf>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[53 <./img/tableAliasingTop10ByShift4.pdf> <./img/tableAliasingTop10ByShift8.pd
+f> <./img/tableAliasingTop10ByShift13.pdf>]
+<img/avgTimes.pdf, id=1319, 451.6875pt x 271.0125pt>
+File: img/avgTimes.pdf Graphic file (type pdf)
+ <use img/avgTimes.pdf>
+Package pdftex.def Info: img/avgTimes.pdf used on input line 882.
+(pdftex.def)             Requested size: 409.72125pt x 245.84845pt.
+
+<img/avgTimesVsAccuracy.pdf, id=1322, 451.6875pt x 271.0125pt>
+File: img/avgTimesVsAccuracy.pdf Graphic file (type pdf)
+
+<use img/avgTimesVsAccuracy.pdf>
+Package pdftex.def Info: img/avgTimesVsAccuracy.pdf used on input line 891.
+(pdftex.def)             Requested size: 512.14961pt x 307.32813pt.
+Package epstopdf Info: Source file: <img/avgTimesVsAccuracyShift1.eps>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 24324 bytes
+(epstopdf)             Output file: <img/avgTimesVsAccuracyShift1-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 10650 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/avgTimesVsAccuracyShif
+t1-eps-converted-to.pdf img/avgTimesVsAccuracyShift1.eps>
+(epstopdf)             \includegraphics on input line 899.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/avgTimesVsAccuracyShift1-eps-converted-to.pdf, id=1323, 399.4925pt x 263.9
+8625pt>
+File: img/avgTimesVsAccuracyShift1-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use img/avgTimesVsAccuracyShift1-eps-converted-to.pdf>
+Package pdftex.def Info: img/avgTimesVsAccuracyShift1-eps-converted-to.pdf used
+ on input line 899.
+(pdftex.def)             Requested size: 256.0748pt x 169.22452pt.
+Package epstopdf Info: Source file: <img/avgTimesVsAccuracyShift2.eps>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 25331 bytes
+(epstopdf)             Output file: <img/avgTimesVsAccuracyShift2-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 10882 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/avgTimesVsAccuracyShif
+t2-eps-converted-to.pdf img/avgTimesVsAccuracyShift2.eps>
+(epstopdf)             \includegraphics on input line 903.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/avgTimesVsAccuracyShift2-eps-converted-to.pdf, id=1324, 395.4775pt x 263.9
+8625pt>
+File: img/avgTimesVsAccuracyShift2-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use img/avgTimesVsAccuracyShift2-eps-converted-to.pdf>
+Package pdftex.def Info: img/avgTimesVsAccuracyShift2-eps-converted-to.pdf used
+ on input line 903.
+(pdftex.def)             Requested size: 256.0748pt x 170.93646pt.
+Package epstopdf Info: Source file: <img/avgTimesVsAccuracyShift3.eps>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 28086 bytes
+(epstopdf)             Output file: <img/avgTimesVsAccuracyShift3-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 11602 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/avgTimesVsAccuracyShif
+t3-eps-converted-to.pdf img/avgTimesVsAccuracyShift3.eps>
+(epstopdf)             \includegraphics on input line 908.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/avgTimesVsAccuracyShift3-eps-converted-to.pdf, id=1325, 396.48125pt x 263.
+98625pt>
+File: img/avgTimesVsAccuracyShift3-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use img/avgTimesVsAccuracyShift3-eps-converted-to.pdf>
+Package pdftex.def Info: img/avgTimesVsAccuracyShift3-eps-converted-to.pdf used
+ on input line 908.
+(pdftex.def)             Requested size: 256.0748pt x 170.50143pt.
+Package epstopdf Info: Source file: <img/avgTimesVsAccuracyShift4.eps>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 24942 bytes
+(epstopdf)             Output file: <img/avgTimesVsAccuracyShift4-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-03-26 19:50:51
+(epstopdf)                    size: 11183 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/avgTimesVsAccuracyShif
+t4-eps-converted-to.pdf img/avgTimesVsAccuracyShift4.eps>
+(epstopdf)             \includegraphics on input line 913.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/avgTimesVsAccuracyShift4-eps-converted-to.pdf, id=1326, 396.48125pt x 263.
+98625pt>
+File: img/avgTimesVsAccuracyShift4-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use img/avgTimesVsAccuracyShift4-eps-converted-to.pdf>
+Package pdftex.def Info: img/avgTimesVsAccuracyShift4-eps-converted-to.pdf used
+ on input line 913.
+(pdftex.def)             Requested size: 256.0748pt x 170.50143pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[54 <./img/avgTimes.pdf>]
+<img/grapeMRILevel1.png, id=1342, 256.96pt x 256.96pt>
+File: img/grapeMRILevel1.png Graphic file (type png)
+
+<use img/grapeMRILevel1.png>
+Package pdftex.def Info: img/grapeMRILevel1.png used on input line 928.
+(pdftex.def)             Requested size: 169.0103pt x 169.01382pt.
+
+<img/grapeMRILevel3.png, id=1343, 256.96pt x 256.96pt>
+File: img/grapeMRILevel3.png Graphic file (type png)
+
+<use img/grapeMRILevel3.png>
+Package pdftex.def Info: img/grapeMRILevel3.png used on input line 931.
+(pdftex.def)             Requested size: 169.0103pt x 169.01382pt.
+
+<img/grapeMRILevel5.png, id=1344, 256.96pt x 256.96pt>
+File: img/grapeMRILevel5.png Graphic file (type png)
+
+<use img/grapeMRILevel5.png>
+Package pdftex.def Info: img/grapeMRILevel5.png used on input line 934.
+(pdftex.def)             Requested size: 169.0103pt x 169.01382pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[55 <./img/avgTimesVsAccuracy.pdf>]
+<img/grapeMRIDif1with3.png, id=1370, 513.92pt x 513.92pt>
+File: img/grapeMRIDif1with3.png Graphic file (type png)
+
+<use img/grapeMRIDif1with3.png>
+Package pdftex.def Info: img/grapeMRIDif1with3.png used on input line 1016.
+(pdftex.def)             Requested size: 169.0103pt x 169.01382pt.
+
+<img/grapeMRIDif1with5.png, id=1371, 513.92pt x 513.92pt>
+File: img/grapeMRIDif1with5.png Graphic file (type png)
+
+<use img/grapeMRIDif1with5.png>
+Package pdftex.def Info: img/grapeMRIDif1with5.png used on input line 1019.
+(pdftex.def)             Requested size: 169.0103pt x 169.01382pt.
+
+<img/grapeMRIDif3with5.png, id=1372, 513.92pt x 513.92pt>
+File: img/grapeMRIDif3with5.png Graphic file (type png)
+
+<use img/grapeMRIDif3with5.png>
+Package pdftex.def Info: img/grapeMRIDif3with5.png used on input line 1022.
+(pdftex.def)             Requested size: 169.0103pt x 169.01382pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[56 <./img/avgTimesVsAccuracyShift1-eps-converted-to.pdf> <./img/avgTimesVsAccu
+racyShift2-eps-converted-to.pdf> <./img/avgTimesVsAccuracyShift3-eps-converted-
+to.pdf> <./img/avgTimesVsAccuracyShift4-eps-converted-to.pdf>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[57 <./img/grapeMRILevel1.png (PNG copy)> <./img/grapeMRILevel3.png (PNG copy)>
+ <./img/grapeMRILevel5.png (PNG copy)> <./img/grapeMRIDif1with3.png (PNG copy)>
+ <./img/grapeMRIDif1with5.png (PNG copy)> <./img/grapeMRIDif3with5.png (PNG cop
+y)>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[58]) (./shift_survey.bbl
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[59]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[60]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no ¼ in font cmcsc10!
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[61]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[62]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[63]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[64]
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no ¡ in font cmcsc10!
+)
+Underfull \hbox (badness 10000) in paragraph at lines 190--207
+
+ []
+
+
+AED: lastpage setting LastPage
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+
+[65]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+ (./shift_survey.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+Package rerunfilecheck Info: File `shift_survey.out' has not changed.
+(rerunfilecheck)             Checksum: 8F3B532536538192FC019D9DBD2F74CD;2829.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+ ) 
+Here is how much of TeX's memory you used:
+ 11036 strings out of 494958
+ 173270 string characters out of 6179213
+ 318908 words of memory out of 5000000
+ 13529 multiletter control sequences out of 15000+600000
+ 24326 words of font info for 90 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 36i,15n,41p,2501b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on shift_survey.pdf (65 pages, 4500162 bytes).
+PDF statistics:
+ 1637 PDF objects out of 1728 (max. 8388607)
+ 1368 compressed objects within 14 object streams
+ 385 named destinations out of 1000 (max. 500000)
+ 990 words of extra memory for PDF output out of 10000 (max. 10000000)
+

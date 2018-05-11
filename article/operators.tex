@@ -1,0 +1,102 @@
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+% operators
+\DeclareMathOperator{\e}{e}
+\DeclareMathOperator{\erfc}{erfc}
+
+\providecommand{\abs}[1]{\left\lvert#1\right\rvert}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\providecommand{\ang}[1]{\left\langle#1\right\rangle}
+
+\newcommand{\add}[1]{{\color{green}{#1}}}
+\newcommand{\CITAR}{\colorbox{yellow}{Add Citation}}
+\newcommand{\RECORDAR}[1]{\colorbox{green}{#1}}
+%\newcommand{\DUDA}[1]{\colorbox{red}{#1}}
+\newcommand{\cfbox}[2]{%
+    {\setlength{\fboxsep}{0pt}
+     \setlength{\fboxrule}{2pt}
+     \color{#1}%
+     \fbox{#2}
+    }}
+\definecolor{shadecolor}{RGB}{255,80,80}
+\newcommand{\DUDA}[1]{\par\noindent\colorbox{shadecolor}
+{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1}}} 
+\newcommand{\gsub}[2]{{\color{blue}{\sout{#1}}{#2}}}
+\newcommand{\gsubc}[2]{{\color{red}{#1}}{\color{blue}#2}}  
+
+
+
+%\usepackage[vlined,linesnumbered]{algorithm2e}
+
+\newcommand{\nada}[1]{}
+\newcommand{\gcomment}[1]{{\color{red}#1}}
+%\newcommand{\nota}[1]{{\color{orange}#1}}
+\newcommand{\nota}[1]{\hl{#1}}
+\newcommand{\thesis}[1]{{\color{red}#1}}
+\newcommand{\magnify}[1]{{\large{\textbf{\emph{#1}}}}}
+
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bp}{\mathbf{p}}
+\newcommand{\bd}{\mathbf{d}}
+
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\providecommand{\snorm}[1]{\lVert#1\rVert}
+\providecommand{\ang}[1]{\left\langle#1\right\rangle}
+
+\newcommand{\R}{\ensuremath{\mathbb{R}}\xspace}
+\newcommand{\E}{\mathbb{E}}
+
+\newcommand{\one}{\ensuremath{\mathbf{1}}\xspace}
+%\newcommand{\bx}{\ensuremath{\mathbf{x}}\xspace}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\ensuremath{\mathbf{y}}\xspace}
+\newcommand{\bxt}{\ensuremath{\mathbf{\tilde{x}}}\xspace}
+%\newcommand{\bb}{\ensuremath{\mathbf{b}}\xspace}
+
+\newcommand{\bI}{\textbf{I}}
+\newcommand{\bi}{\textbf{i}}
+\newcommand{\bj}{\textbf{j}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bM}{\mathbf{M}}
+\newcommand{\nbb}{\tilde{\bb}}
+\newcommand{\nbA}{\tilde{\bA}}
+\newcommand{\nbv}{\tilde{\bv}}
+\newcommand{\nb}{\tilde{b}}
+\newcommand{\nI}{\tilde{I}}
+\newcommand{\nv}{\tilde{v}}
+\newcommand{\itParam}{\emph{\textbf{i}}}
+\newcommand{\scParam}{\emph{\textbf{s}}}
+\newcommand{\spParam}{\emph{\textbf{sp}}}
+\newcommand{\grParam}{\emph{\textbf{gr}}}
+\newcommand{\intParam}{\emph{\textbf{int}}}
+\newcommand{\winParam}{\emph{\textbf{win}}}
+\newcommand{\dParam}{\emph{\textbf{d}}}
+
+
+\newcommand{\Xls}{\hat{X}_{LS}}
+\newcommand{\xtls}{\hat{\bx}_{TLS}}
+
+\newcommand{\dA}{\Delta \bA}
+\newcommand{\dB}{\Delta \bB}
+\newcommand{\db}{\Delta \bb}
+\newcommand{\hdeltaA}{\widehat{\Delta \bA}}
+\newcommand{\hdeltab}{\widehat{\Delta \bb}}
+
+
+%% RANDOM VARIABLES %%
+\newcommand{\Y}{\textbf{Y}}
+\newcommand{\X}{\textbf{X}}
+\newcommand{\N}{\textbf{N}}
+\newcommand{\y}{\textbf{y}}
+\newcommand{\x}{\textbf{x}} 
+
+
+\makeatletter
+\newcommand{\mypm}{\mathbin{\mathpalette\@mypm\relax}}
+\newcommand{\@mypm}[2]{\ooalign{%
+  \raisebox{.1\height}{$#1+$}\cr
+  \smash{\raisebox{-.6\height}{$#1-$}}\cr}}
+\makeatother

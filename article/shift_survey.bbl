@@ -1,0 +1,484 @@
+\begin{thebibliography}{10}
+
+\bibitem{Abdou1998}
+{\sc Ikram~E. Abdou}, {\em Practical approach to the registration of multiple
+  frames of video images}, 1998.
+
+\bibitem{adams2008viewfinder}
+{\sc Andrew Adams, Natasha Gelfand, and Kari Pulli}, {\em Viewfinder
+  alignment}, Computer Graphics Forum, 27 (2008), pp.~597--606.
+
+\bibitem{Alba_2015}
+{\sc Alfonso Alba, J.~Flavio Vigueras-Gomez, Edgar~R. Arce-Santana, and Ruth~M.
+  Aguilar-Ponce}, {\em Phase correlation with sub-pixel accuracy: A comparative
+  study in 1d and 2d}, Computer Vision and Image Understanding, 137 (2015),
+  pp.~76 -- 87.
+
+\bibitem{Alliney_86}
+{\sc S.~Alliney and C.~Morandi}, {\em Digital image registration using
+  projections}, IEEE Transactions on Pattern Analysis and Machine Intelligence,
+  PAMI-8 (1986), pp.~222--233.
+
+\bibitem{AnscombeVST}
+{\sc F.~J. Anscombe}, {\em The transformation of poisson, binomial and
+  negative-binomial data}, Biometrika, 35 (1948), pp.~246--254.
+
+\bibitem{Argyriou2004}
+{\sc V.~Argyriou and T.~Vlachos}, {\em Using gradient correlation for sub-pixel
+  motion estimation of video sequences}, in Acoustics, Speech, and Signal
+  Processing, 2004. Proceedings. (ICASSP '04). IEEE International Conference
+  on, vol.~3, May 2004, pp.~iii--329--32 vol.3.
+
+\bibitem{Argyriou2006}
+{\sc V.~Argyriou and T.~Vlachos}, {\em A study of sub-pixel motion estimation
+  using phase correlation}, in Proc. BMVC, 2006, pp.~40.1--40.10.
+\newblock doi:10.5244/C.20.40.
+
+\bibitem{Argyriou_2007_Video}
+{\sc V.~Argyriou and T.~Vlachos}, {\em Quad-tree motion estimation in the
+  frequency domain using gradient correlation}, IEEE Transactions on
+  Multimedia, 9 (2007), pp.~1147--1154.
+
+\bibitem{bab1998robust}
+{\sc Alireza Bab-Hadiashar and David Suter}, {\em Robust optic flow
+  computation}, International Journal of Computer Vision, 29 (1998),
+  pp.~59--77.
+
+\bibitem{Babhadiashar98robusttotal}
+{\sc Alireza Bab-Hadiashar and David Suter}, {\em Robust total least squares
+  based optic flow computation}, in Proc. 3rd ACCV, Hong Kong, 1998,
+  pp.~566--573.
+
+\bibitem{baker2004lucas}
+{\sc Simon Baker and Iain Matthews}, {\em Lucas-kanade 20 years on: A unifying
+  framework}, IJCV, 56 (2004), pp.~221--255.
+
+\bibitem{Balci_2005}
+{\sc M.~Balci and H.~Foroosh}, {\em Estimating sub-pixel shifts directly from
+  the phase difference}, in IEEE International Conference on Image Processing
+  2005, vol.~1, Sept 2005, pp.~I--1057--60.
+
+\bibitem{barlev88}
+{\sc Shaul~K. Bar-Lev and Peter Enis}, {\em On the classical choice of variance
+  stabilizing transformations and an application for a poisson variate},
+  Biometrika, 75 (1988), pp.~803--804.
+
+\bibitem{Bartlett36}
+{\sc M.~S. Bartlett}, {\em The square root transformation in analysis of
+  variance}, Supplement to the Journal of the Royal Statistical Society, 3
+  (1936), pp.~68--78.
+
+\bibitem{beauchemin1995computation}
+{\sc Steven~S. Beauchemin and John~L. Barron}, {\em The computation of optical
+  flow}, ACM computing surveys (CSUR), 27 (1995), pp.~433--466.
+
+\bibitem{FourierInt}
+{\sc G.~M. {Bernstein} and D.~{Gruen}}, {\em {Resampling Images in Fourier
+  Domain}}, Publications of the Astronomical Society of the Pacific, 126
+  (2014), pp.~287--295.
+
+\bibitem{brown1992survey}
+{\sc Lisa~Gottesfeld Brown}, {\em A survey of image registration techniques},
+  ACM computing surveys (CSUR), 24 (1992), pp.~325--376.
+
+\bibitem{brunelli2009template}
+{\sc R.~Brunelli}, {\em Template Matching Techniques in Computer Vision: Theory
+  and Practice}, Wiley, 2009.
+
+\bibitem{burt1983laplacian}
+{\sc Peter~J Burt and Edward~H Adelson}, {\em The laplacian pyramid as a
+  compact image code}, Communications, IEEE Transactions on, 31 (1983),
+  pp.~532--540.
+
+\bibitem{Chao2014}
+{\sc Haiyang Chao, Yu~Gu, and Marcello Napolitano}, {\em A survey of optical
+  flow techniques for robotics navigation applications}, Journal of Intelligent
+  {\&} Robotic Systems, 73 (2014), pp.~361--372.
+
+\bibitem{christmas1998spatial}
+{\sc William~J Christmas}, {\em Spatial filtering requirements for
+  gradient-based optical flow measurement.}, in BMVC, 1998, pp.~1--10.
+
+\bibitem{Curtiss43}
+{\sc J.~H. Curtiss}, {\em On transformations used in the analysis of variance},
+  The Annals of Mathematical Statistics, 14 (1943), pp.~107--122.
+
+\bibitem{DeBoor2001}
+{\sc Carl De~Boor}, {\em {A practical guide to splines; rev. ed.}}, Applied
+  mathematical sciences, Springer, Berlin, 2001.
+
+\bibitem{Delon2004}
+{\sc Julie Delon}, {\em Midway image equalization}, Journal of Mathematical
+  Imaging and Vision, 21 (2004), pp.~119--134.
+
+\bibitem{Eckart1936}
+{\sc Carl Eckart and Gale Young}, {\em The approximation of one matrix by
+  another of lower rank}, Psychometrika, 1 (1936), pp.~211--218.
+
+\bibitem{Eisenhart47}
+{\sc Churchill Eisenhart}, {\em The assumptions underlying the analysis of
+  variance}, Biometrics, 3 (1947), pp.~1--21.
+
+\bibitem{Elad_1999}
+{\sc M.~Elad, P.~Teo, and Y.~Hel-Or}, {\em Optimal filters for gradient-based
+  motion estimation}, in Computer Vision, 1999. The Proceedings of the Seventh
+  IEEE International Conference on, vol.~1, 1999, pp.~559--565 vol.1.
+
+\bibitem{erturk2003digital}
+{\sc S~Erturk}, {\em Digital image stabilization with sub-image phase
+  correlation based global motion estimation}, IEEE Transactions on Consumer
+  Electronics, 49 (2003), pp.~1320--1325.
+
+\bibitem{farid2004differentiation}
+{\sc Hany Farid and Eero~P Simoncelli}, {\em Differentiation of discrete
+  multidimensional signals}, IEEE Transactions on Image Processing, 13 (2004),
+  pp.~496--508.
+
+\bibitem{Fashandi_2007}
+{\sc Homa Fashandi, Reza Fazel-Rezai, and Stephen Pistorius}, {\em Optical flow
+  and total least squares solution for multi-scale data in an over-determined
+  system}, in Advances in Visual Computing, George Bebis, Richard Boyle, Bahram
+  Parvin, Darko Koracin, Nikos Paragios, Syeda-Mahmood Tanveer, Tao Ju, Zicheng
+  Liu, Sabine Coquillart, Carolina Cruz-Neira, Torsten Müller, and Tom
+  Malzbender, eds., vol.~4842 of Lecture Notes in Computer Science, Springer
+  Berlin Heidelberg, 2007, pp.~33--42.
+
+\bibitem{Fleet05opticalflow}
+{\sc David~J. Fleet and Yair Weiss}, {\em Optical flow estimation}, 2005.
+
+\bibitem{Foroosh2002}
+{\sc H.~Foroosh, J.B. Zerubia, and M.~Berthod}, {\em Extension of phase
+  correlation to subpixel registration}, Image Processing, IEEE Transactions
+  on, 11 (2002), pp.~188 --200.
+
+\bibitem{freeman1950}
+{\sc Murray~F. Freeman and John~W. Tukey}, {\em Transformations related to the
+  angular and the square root}, Ann. Math. Statist., 21 (1950), pp.~607--611.
+
+\bibitem{ghiglia1998two}
+{\sc Dennis~C Ghiglia and Mark~D Pritt}, {\em Two-dimensional phase unwrapping:
+  theory, algorithms, and software}, vol.~4, Wiley New York, 1998.
+
+\bibitem{gilman_global_2013}
+{\sc Andrew Gilman and Arno Leist}, {\em Global {Illumination}-{Invariant}
+  {Fast} {Sub}-{Pixel} {Image} {Registration}}, July 2013, pp.~95--100.
+
+\bibitem{GOLUB1987}
+{\sc G.H. Golub, Alan Hoffman, and G.W. Stewart}, {\em A generalization of the
+  eckart-young-mirsky matrix approximation theorem}, Linear Algebra and its
+  Applications, 88 (1987), pp.~317 -- 327.
+
+\bibitem{gonzalez2008digital}
+{\sc R.C. Gonzalez and R.E. Woods}, {\em Digital Image Processing},
+  Pearson/Prentice Hall, 2008.
+
+\bibitem{Goshtasby_1986}
+{\sc A.~Goshtasby, G.~C. Stockman, and C.~V. Page}, {\em A region-based
+  approach to digital image registration with subpixel accuracy}, IEEE
+  Transactions on Geoscience and Remote Sensing, GE-24 (1986), pp.~390--399.
+
+\bibitem{Guizar-Sicairos08}
+{\sc Manuel Guizar-Sicairos, Samuel~T. Thurman, and James~R. Fienup}, {\em
+  Efficient subpixel image registration algorithms}, Opt. Lett., 33 (2008),
+  pp.~156--158.
+
+\bibitem{hayashi2000econometrics}
+{\sc Fumio Hayashi}, {\em Econometrics}, Princeton University Press, Princeton,
+  2000.
+
+\bibitem{ho2008optical}
+{\sc Huy~Tho Ho and Roland Goecke}, {\em Optical flow estimation using fourier
+  mellin transform}, in Computer Vision and Pattern Recognition, 2008. CVPR
+  2008. IEEE Conference on, IEEE, 2008, pp.~1--8.
+
+\bibitem{hoge2003subspace}
+{\sc William~Scott Hoge}, {\em A subspace identification extension to the phase
+  correlation method [mri application]}, Medical Imaging, IEEE Transactions on,
+  22 (2003), pp.~277--280.
+
+\bibitem{Hoge_2003}
+{\sc W.~S. Hoge}, {\em A subspace identification extension to the phase
+  correlation method [mri application]}, IEEE Transactions on Medical Imaging,
+  22 (2003), pp.~277--280.
+
+\bibitem{hough1962method}
+{\sc Paul~VC Hough}, {\em Method and means for recognizing complex patterns},
+  tech. report, 1962.
+
+\bibitem{VanHuffel1987313}
+{\sc Sabine~Van Huffel, Joos Vandewalle, and Ann Haegemans}, {\em An efficient
+  and reliable algorithm for computing the singular subspace of a matrix,
+  associated with its smallest singular values}, Journal of Computational and
+  Applied Mathematics, 19 (1987), pp.~313 -- 330.
+
+\bibitem{Ji2006}
+{\sc Hui Ji and Cornelia Fermüller}, {\em Noise causes slant underestimation
+  in stereo and motion}, Vision Research, 46 (2006), pp.~3105 -- 3120.
+
+\bibitem{keys1981}
+{\sc R.~Keys}, {\em Cubic convolution interpolation for digital image
+  processing}, IEEE Transactions on Acoustics, Speech, and Signal Processing,
+  29 (1981), pp.~1153--1160.
+
+\bibitem{KIRKPATRICK_2008}
+{\sc S.J. KIRKPATRICK and D.D. DUNCAN}, {\em Performance of a gradient-based
+  shift estimator in a spatially sparse data environment: tracking the
+  sub-pixel motion of fluorescent particles}, Journal of Microscopy, 232
+  (2008), pp.~64--72.
+
+\bibitem{Knutsson2005}
+{\sc Per Knutsson, Mette Owner-Petersen, and Chris Dainty}, {\em {Extended
+  object wavefront sensing based on the correlation spectrum phase.}}, Optics
+  express, 13 (2005), pp.~9527--9536.
+
+\bibitem{Kug75}
+{\sc C.~D. Kuglin and D.~C. Hines}, {\em {The phase correlation image alignment
+  method}}, IEEE Conference on Cybernetics and Society,  (1975), pp.~163--165.
+
+\bibitem{leprince2007automatic}
+{\sc S.~Leprince, S.~Barbot, F.~Ayoub, and J.~P. Avouac}, {\em Automatic and
+  precise orthorectification, coregistration, and subpixel correlation of
+  satellite images, application to ground deformation measurements}, IEEE
+  Transactions on Geoscience and Remote Sensing, 45 (2007), pp.~1529--1558.
+
+\bibitem{letteboer2005brain}
+{\sc Marloes Maria~Johanna Letteboer, Peter~WA Willems, Max~A Viergever, and
+  Wiro~J Niessen}, {\em Brain shift estimation in image-guided neurosurgery
+  using 3-d ultrasound}, IEEE Transactions on Biomedical Engineering, 52
+  (2005), pp.~268--276.
+
+\bibitem{Levenberg_1944}
+{\sc Kenneth Levenberg}, {\em A method for the solution of certain non-linear
+  problems in least squares}, Quarterly of Applied Mathematics, 2 (1944),
+  pp.~164--168.
+
+\bibitem{lofdahl2010evaluation}
+{\sc Mats~G L{\"o}fdahl}, {\em Evaluation of image-shift measurement algorithms
+  for solar {S}hack-{H}artmann wavefront sensors}, Astronomy \& Astrophysics,
+  524 (2010), p.~A90.
+
+\bibitem{Lowe2004}
+{\sc David~G. Lowe}, {\em Distinctive image features from scale-invariant
+  keypoints}, International Journal of Computer Vision, 60, pp.~91--110.
+
+\bibitem{Lucas_1981}
+{\sc Bruce~D. Lucas and Takeo Kanade}, {\em An iterative image registration
+  technique with an application to stereo vision}, in Proceedings of the 7th
+  International Joint Conference on Artificial Intelligence - Volume 2,
+  IJCAI'81, San Francisco, CA, USA, 1981, Morgan Kaufmann Publishers Inc.,
+  pp.~674--679.
+
+\bibitem{Maini2010}
+{\sc Raman Maini and Himanshu Aggarwal}, {\em A comprehensive review of image
+  enhancement techniques}, CoRR, abs/1003.4053 (2010).
+
+\bibitem{maintz1998survey}
+{\sc JB~Antoine Maintz and Max~A Viergever}, {\em A survey of medical image
+  registration}, Medical image analysis, 2 (1998), pp.~1--36.
+
+\bibitem{markovsky2007overview}
+{\sc Ivan Markovsky and Sabine Van~Huffel}, {\em Overview of total
+  least-squares methods}, Signal processing, 87 (2007), pp.~2283--2302.
+
+\bibitem{Morel2011sift}
+{\sc Jean~Michel Morel and Guoshen Yu}, {\em {Is sift scale invariant?}},
+  Inverse Problems and Imaging, 5 (2011), pp.~115--136.
+
+\bibitem{Muquit_2006}
+{\sc Mohammad~Abdul Muquit, Takuma Shibahara, and Takafumi Aoki}, {\em A
+  high-accuracy passive 3d measurement system using phase-based image
+  matching}, IEICE Trans. Fundam. Electron. Commun. Comput. Sci., E89-A (2006),
+  pp.~686--697.
+
+\bibitem{NG2001}
+{\sc L.~Ng and V.~Solo}, {\em Errors-in-variables modeling in optical flow
+  estimation}, Image Processing, IEEE Transactions on, 10 (2001),
+  pp.~1528--1540.
+
+\bibitem{pham2008}
+{\sc T.Q. Pham and M.~Duggan}, {\em Bidirectional bias correction for
+  gradient-based shift estimation}, in Image Processing, 2008. ICIP 2008. 15th
+  IEEE International Conference on, Oct 2008, pp.~829--832.
+
+\bibitem{pham2005performance}
+{\sc T.~Q. Pham, M.~Bezuijen, L.~J. Van~Vliet, K.~Schutte, and C.~L.~L.
+  Hendriks}, {\em {Performance of optimal registration estimators}}, in Proc.
+  SPIE, vol.~5817, 2005, pp.~133--144.
+
+\bibitem{Pham2012}
+{\sc T.~Q. Pham and P.~Cox}, {\em Multi-hypothesis projection-based shift
+  estimation for sweeping panorama reconstruction}, in 2012 IEEE International
+  Conference on Multimedia and Expo, July 2012, pp.~97--102.
+
+\bibitem{poyneer2003scene}
+{\sc Lisa~A Poyneer}, {\em Scene-based {S}hack-{H}artmann wave-front sensing:
+  analysis and simulation}, Applied Optics, 42 (2003), pp.~5807--5815.
+
+\bibitem{Poyneer2005}
+{\sc Lisa~A. Poyneer, David~W. Palmer, Kai~N. LaFortune, and Brian Bauman},
+  {\em {Experimental results for correlation-based wavefront sensing}}, in
+  Optics \& Photonics 2005, Mark~T. Gruneisen, John~D. Gonglewski, and
+  Michael~K. Giles, eds., International Society for Optics and Photonics, Aug.
+  2005, pp.~58940N--58940N--142.
+
+\bibitem{RaisMF15}
+{\sc Martin Rais, J.-M. Morel, and Gabriele Facciolo}, {\em Iterative
+  gradient-based shift estimation: To multiscale or not to multiscale?}, in
+  Progress in Pattern Recognition, Image Analysis, Computer Vision, and
+  Applications - 20th Iberoamerican Congress, {CIARP} 2015, Montevideo,
+  Uruguay, November 9-12, 2015, Proceedings, 2015, pp.~416--423.
+
+\bibitem{Rais_2014}
+{\sc M.~Rais, C.~Thiebaut, J.~M. Delvit, and J.~M. Morel}, {\em A tight
+  multiframe registration problem with application to earth observation
+  satellite design}, in 2014 IEEE International Conference on Imaging Systems
+  and Techniques (IST) Proceedings, Oct 2014, pp.~6--10.
+
+\bibitem{Reddy1996}
+{\sc B.S. Reddy and B.N. Chatterji}, {\em An fft-based technique for
+  translation, rotation, and scale-invariant image registration}, Image
+  Processing, IEEE Transactions on, 5 (1996), pp.~1266 --1271.
+
+\bibitem{reed2010comparison}
+{\sc RA~Reed}, {\em Comparison of subpixel phase correlation methods for image
+  registration}, tech. report, DTIC Document, 2010.
+
+\bibitem{Ren_2010}
+{\sc J.~Ren, J.~Jiang, and T.~Vlachos}, {\em High-accuracy sub-pixel motion
+  estimation from noisy images in {F}ourier domain}, IEEE Transactions on Image
+  Processing, 19 (2010), pp.~1379--1384.
+
+\bibitem{Ren_2014}
+{\sc Jinchang Ren, Theodore Vlachos, Yi~Zhang, Jiangbin Zheng, and Jianmin
+  Jiang}, {\em Gradient-based subspace phase correlation for fast and effective
+  image alignment}, Journal of Visual Communication and Image Representation,
+  25 (2014), pp.~1558 -- 1565.
+
+\bibitem{Robinson_2001}
+{\sc D.~Robinson and P.~Milanfar}, {\em Efficiency and accuracy tradeoffs in
+  using projections for motion estimation}, in Signals, Systems and Computers,
+  2001. Conference Record of the Thirty-Fifth Asilomar Conference on, vol.~1,
+  Nov 2001, pp.~545--550 vol.1.
+
+\bibitem{Robinson2004}
+{\sc D.~Robinson and P.~Milanfar}, {\em Fundamental performance limits in image
+  registration}, Image Processing, IEEE Transactions on, 13 (2004),
+  pp.~1185--1199.
+
+\bibitem{Robinson2005}
+{\sc Dirk Robinson and Peyman Milanfar}, {\em Bias minimizing filter design for
+  gradient-based image registration}, Signal Processing: Image Communication,
+  20 (2005), pp.~554 -- 568.
+\newblock Special Issue on Advanced Aspects of Motion Estimation Special Issue
+  on Advanced Aspects of Motion Estimation.
+
+\bibitem{Sabater_2012}
+{\sc N.~Sabater, S.~Leprince, and J.~P. Avouac}, {\em Contrast invariant and
+  affine sub-pixel optical flow}, in 2012 19th IEEE International Conference on
+  Image Processing, Sept 2012, pp.~53--56.
+
+\bibitem{Shekarforoush_96}
+{\sc H.~Shekarforoush, M.~Berthod, and J.~Zerubia}, {\em Subpixel image
+  registration by estimating the polyphase decomposition of cross power
+  spectrum}, in Computer Vision and Pattern Recognition, 1996. Proceedings CVPR
+  '96, 1996 IEEE Computer Society Conference on, Jun 1996, pp.~532--537.
+
+\bibitem{Sidick2011}
+{\sc Erkin Sidick}, {\em Adaptive periodic-correlation algorithm for extended
+  scene {S}hack-{H}artmann wavefront sensing}, in Imaging and Applied Optics,
+  Optical Society of America, 2011, p.~CPDP1.
+
+\bibitem{Sidick2007}
+{\sc E.~Sidick et~al.}, {\em {An Adaptive cross-correlation algorithm for
+  extended scene {S}hack-{H}artmann wavefront sensing}}, in Adaptive Optics:
+  Methods, Analysis and Applications, OSA, 2007.
+
+\bibitem{Sidick2007Adaptive}
+{\sc E.~Sidick, R.~Morgan, J.~Green, C.~Ohara, and D.~Redding}, {\em {Adaptive
+  Cross-Correlation Algorithm and Experiment of Extended Scene
+  {S}hack-{H}artmann Wavefront Sensing}}, in UV/Optical/IR Space Telescopes:
+  Innovative Technologies and Concepts III, Howard~A. MacEwen and James~B.
+  Breckinridge, eds., vol.~6687, Sept. 2007, pp.~668710--668711.
+
+\bibitem{Simoncelli_1994}
+{\sc E.P. Simoncelli}, {\em Design of multi-dimensional derivative filters}, in
+  Image Processing, 1994. Proceedings. ICIP-94., IEEE International Conference,
+  vol.~1, Nov 1994, pp.~790--794 vol.1.
+
+\bibitem{SASPWEB2011}
+{\sc Julius~O. Smith}, {\em Spectral Audio Signal Processing},
+  \htmladdnormallink{\texttt{http:}}{http://ccrma.stanford.edu/~jos/sasp/}\texttt{//\-ccrma.stanford.edu/\-\~{}jos/\-sasp/}.
+\newblock online book, 2011 edition.
+
+\bibitem{Soummer_07}
+{\sc R.~Soummer, L.~Pueyo, A.~Sivaramakrishnan, and R.~J. Vanderbei}, {\em Fast
+  computation of lyot-style coronagraph propagation}, Opt. Express, 15 (2007),
+  pp.~15935--15951.
+
+\bibitem{Starck_1998}
+{\sc J.-L. Starck, F.~Murtagh, and A.~Bijaoui}, {\em Image Processing and Data
+  Analysis: The Multiscale Approach}, Cambridge University Press, New York, NY,
+  USA, 1998.
+
+\bibitem{Stone_2001}
+{\sc H.S. Stone, M.T. Orchard, E.-C. Chang, and S.A. Martucci}, {\em A fast
+  direct fourier-based algorithm for subpixel registration of images},
+  Geoscience and Remote Sensing, IEEE Transactions on, 39 (2001),
+  pp.~2235--2243.
+
+\bibitem{Takita2003}
+{\sc Kenji Takita, Takafumi Aoki, Yoshifumi Sasaki, Tatsuo Higuchi, and Koji
+  Kobayashi}, {\em {High-Accuracy Subpixel Image Registration Based on
+  Phase-Only Correlation}}, IEICE transactions on fundamentals of electronics,
+  communications and computer sciences, 86 (2003), pp.~1925--1934.
+
+\bibitem{Thevenaz1998}
+{\sc P.~Thevenaz, U.~E. Ruttimann, and M.~Unser}, {\em A pyramid approach to
+  subpixel registration based on intensity}, IEEE Transactions on Image
+  Processing, 7 (1998), pp.~27--41.
+
+\bibitem{Tian_1986}
+{\sc Qi~Tian and Michael~N Huhns}, {\em Algorithms for subpixel registration},
+  Comput. Vision Graph. Image Process., 35 (1986), pp.~220--233.
+
+\bibitem{tong2015novel}
+{\sc Xiaohua Tong, Zhen Ye, Yusheng Xu, Shijie Liu, Lingyun Li, Huan Xie, and
+  Tianpeng Li}, {\em A novel subpixel phase correlation method using singular
+  value decomposition and unified random sample consensus}, IEEE Transactions
+  on Geoscience and Remote Sensing, 53 (2015), pp.~4143--4156.
+
+\bibitem{Tsai1998}
+{\sc Chun-Jen Tsai, N.P. Galatsanos, and AK. Katsaggelos}, {\em Total least
+  squares estimation of stereo optical flow}, in Image Processing, 1998. ICIP
+  98. Proceedings. 1998 International Conference on, vol.~2, Oct 1998,
+  pp.~622--626 vol.2.
+
+\bibitem{Tzimiropoulos2016}
+{\sc G.~Tzimiropoulos and V.~Argyriou}, {\em Gradient schemes for robust
+  fft-based motion estimation}, in 2016 IEEE International Conference on
+  Acoustics, Speech and Signal Processing (ICASSP), March 2016, pp.~1781--1785.
+
+\bibitem{Tzimiropoulos2011}
+{\sc G.~Tzimiropoulos, V.~Argyriou, and T.~Stathaki}, {\em Subpixel
+  registration with gradient correlation}, IEEE Transactions on Image
+  Processing, 20 (2011), pp.~1761--1767.
+
+\bibitem{vhva:91}
+{\sc S.~Van~Huffel and J.~Vandewalle}, {\em The Total Least Squares Problem:
+  Computational Aspects and Analysis}, SIAM, Philadelphia, 1991.
+
+\bibitem{Weber95robustcomputation}
+{\sc Joseph Weber and Jitendra Malik}, {\em Robust computation of optic flow in
+  a multiscale differential framework}, International Journal of Computer
+  Vision,  (1995), pp.~67--81.
+
+\bibitem{Weickert2006}
+{\sc Joachim Weickert, Andr{\'e}s Bruhn, Thomas Brox, and Nils Papenberg}, {\em
+  A Survey on Variational Optic Flow Methods for Small Displacements}, Springer
+  Berlin Heidelberg, Berlin, Heidelberg, 2006, pp.~103--136.
+
+\bibitem{Zitova03imageregistration}
+{\sc Barbara Zitová and Jan Flusser}, {\em Image registration methods: a
+  survey}, Image and Vision Computing, 21 (2003), pp.~977--1000.
+
+\end{thebibliography}

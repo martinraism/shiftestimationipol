@@ -1,0 +1,80 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: shift_survey.aux
+The style file: siam.bst
+Database file #1: refs.bib
+Repeated entry---line 266 of file refs.bib
+ : @article{maintz1998survey
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Abdou1998" isn't style-file defined
+--line 1165 of file refs.bib
+Repeated entry---line 1654 of file refs.bib
+ : @article{Lowe2004
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2622 of file refs.bib
+ :  @article{VanHuffel1987313
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2714 of file refs.bib
+ :  @book{vhva:91
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring Takita2003's extra "year" field
+--line 2831 of file refs.bib
+Warning--I didn't find a database entry for "turabian"
+Warning--I didn't find a database entry for "merriam-webster"
+Warning--I didn't find a database entry for "strunk-white"
+Warning--I didn't find a database entry for "williams"
+Warning--I didn't find a database entry for "article"
+Warning--I didn't find a database entry for "preprint"
+Warning--I didn't find a database entry for "conference"
+Warning--I didn't find a database entry for "book"
+Warning--empty booktitle in gilman_global_2013
+Warning--empty institution in hough1962method
+Warning--empty year in Lowe2004
+Warning--empty year in SASPWEB2011
+Warning--can't use both author and editor fields in Weickert2006
+You've used 97 entries,
+            2030 wiz_defined-function locations,
+            1155 strings with 21213 characters,
+and the built_in function-call counts, 38861 in all, are:
+= -- 3850
+> -- 1434
+< -- 0
++ -- 584
+- -- 461
+* -- 2856
+:= -- 5626
+add.period$ -- 100
+call.type$ -- 97
+change.case$ -- 505
+chr.to.int$ -- 0
+cite$ -- 102
+duplicate$ -- 1860
+empty$ -- 3063
+format.name$ -- 461
+if$ -- 8691
+int.to.chr$ -- 0
+int.to.str$ -- 97
+missing$ -- 102
+newline$ -- 297
+num.names$ -- 200
+pop$ -- 496
+preamble$ -- 1
+purify$ -- 415
+quote$ -- 0
+skip$ -- 1711
+stack$ -- 0
+substring$ -- 3205
+swap$ -- 883
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 370
+warning$ -- 5
+while$ -- 402
+width$ -- 99
+write$ -- 888
+(There were 4 error messages)

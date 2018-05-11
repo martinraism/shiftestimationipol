@@ -1,0 +1,127 @@
+% !TEX root = Report.tex
+
+% *************** Front matter ***************
+
+% ***************************************************
+% You should specify the contents of title page here
+% Then you can specify dedication page or disable it
+% ***************************************************
+
+% *************** Title page ***************
+%\sffamily
+\rmfamily
+\noindent
+%\begin{center}
+%		\Huge
+ %   ENS Cachan\\
+  %  \LARGE
+   % CMLA\\
+%\end{center}
+\thispagestyle{empty}
+
+\begin{figure}
+\centering
+\subfloat{\includegraphics[width=0.35\linewidth]{logoENS}} 
+\hfill
+\subfloat{\includegraphics[width=0.35\linewidth]{logoCMLA}} 
+\end{figure}
+
+%\begin{figure}[h]
+%	\centering
+%		\includegraphics[width=0.3\textwidth]{logoENS}
+%\end{figure}
+
+%\begin{figure}[h]
+%	\centering
+%		\includegraphics[width=0.30\textwidth]{logoCMLA}
+%\end{figure}
+
+
+
+\begin{center}
+    \huge
+    Rapport sur le contrat CNES N$\degree$ 140604/00\\
+\end{center}
+\hrule
+%\vfill
+\begin{center}
+    \Large\bfseries
+     Adaptation d'un algorithme de flot optique rigide pour le calcul des d\'{e}calages entre les imagettes d'un analyseur de surface d'onde de type Shack-Hartmann.\\
+    \large Rapport final
+\end{center}
+
+%\vspace{1cm}
+\begin{center}
+    \Large
+    par
+\end{center}
+
+%\vfill
+
+\begin{center}
+    \Large\bfseries
+    Mart\'{i}n Rais\\
+    \normalsize
+    martus@gmail.com\\
+      \Large\bfseries
+    Jean-Michel Morel\\
+    \normalsize
+    morel@cmla.ens-cachan.fr
+\end{center}
+\vspace{1cm}
+%\begin{abstract} 
+%Say something
+%In this report we evaluate our optical-flow based method to estimate the translation between images on a series of images produces by a Shack-Hartmann wavefront sensors. We study how to evaluate the translation motion between a matrix of $11 \times 11$ image CCD sensors, each taking a $39 \times 39$ image under distinct SNR conditions. Our results suggest the method can be employed in such context, and since more information is present, it can be further refined. We think that these tests should be developed on a whole study where :
+%\begin{itemize}
+%\item Cramer Rao estimates would be provided depending on a noise model
+%\item a noise estimator would be used to secure these Cramer Rao estimates
+%\item This study would be done in a framework where an a a priori model is given for the wavefront deformation, and an optimal estimate %is calculated given this model. 
+%\end{itemize}
+%\end{abstract}
+
+\vspace{1cm}
+\begin{center}
+    \huge
+    CMLA - ENS Cachan\\
+\end{center}
+
+%\vfill
+\begin{center}
+\large
+   31 Janvier 2015
+\end{center}
+
+\thispagestyle{empty}
+
+%\cleardoublepage
+
+
+
+%\vspace*{\fill}
+%{\hfill\sffamily\itshape La presente tesis est· dedicada mi familia, a mis amigos, etc.}
+%\cleardoublepage
+
+
+\rmfamily
+\normalfont
+
+% *************** Table of contents ***************
+%\pagenumbering{}
+%\pagenumbering{Alph}
+%\thispagestyle{empty}
+\fancypagestyle{plain}
+{
+    \fancyhead{}
+    \fancyfoot{}
+}	% clear header and footer of plain page because of ToC
+%\tableofcontents
+
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+%\thispagestyle{empty}
+%\pagestyle{empty}
+%\clearpage
+%\tableofcontents
+
+
+
+% *************** End of front matter ***************
