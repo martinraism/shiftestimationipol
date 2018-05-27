@@ -1,12 +1,12 @@
 function [output] = CalculateExtendedTransitionBetweenFramesGC2011(I1, I2, par, method)
 
-if (exist('../ShiftEstimation/Argyriou','dir')) 
-    addpath('../ShiftEstimation/Argyriou');
-else
-    if exist('./ShiftEstimation/Argyriou','dir')
-        addpath('./ShiftEstimation/Argyriou');
-    end
-end
+% if (exist('../ShiftEstimation/Argyriou','dir')) 
+%     addpath('../ShiftEstimation/Argyriou');
+% else
+%     if exist('./ShiftEstimation/Argyriou','dir')
+%         addpath('./ShiftEstimation/Argyriou');
+%     end
+% end
 R = 10; %2R+1 points for non-linear least squares
 %p = [1 1 1];
 p = [1 1 1];

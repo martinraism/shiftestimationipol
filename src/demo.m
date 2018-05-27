@@ -6,9 +6,9 @@
 %addpath(genpath('/home/rais/PhD/aransac/vl'))
 %warning('off', 'images:initSize:adjustingMag');
 function [] = demo(im1File, im2File)
-addpath(genpath('./ShiftEstimation'));
-addpath(genpath('./GradientEstimation'));
-addpath(genpath('./Utils'));
+% addpath(genpath('./ShiftEstimation'));
+% addpath(genpath('./GradientEstimation'));
+% addpath(genpath('./Utils'));
 im1 = imread(im1File); im2 = imread(im2File);
 if (size(im1,3) == 3)
     im1 = double(rgb2gray(im1));
@@ -23,20 +23,20 @@ end
 %ShowTwoImagesSuperposed(im1, im2);
 
 % Registration
-[qtyMethods, methods] = EvaluateAlgorithmsParam([], [], [], [], [], [], [], []);
-methodsToUse = true(1, length(methods));
+[~, methods] = EvaluateAlgorithmsParam([], [], [], [], [], [], [], []);
+%methodsToUse = true(1, length(methods));
 % All methods involving ground truth values (obtained by simulation) are
 % removed
-methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORIGRAD'));
-methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORIIMAGE'));
-methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORISIGMA'));
+%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORIGRAD'));
+%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORIIMAGE'));
+%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORISIGMA'));
 % For this demo, the compensated/corrected least squares method is commented 
 % out since we do not have (nor want to do) noise estimation 
-methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'CLS'));
+%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'CLS'));
 % Optimization based methods are also not used because they are expensive
 % and not accurate enough
-methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'SYMN'));
-methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'DIRN'));
+%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'SYMN'));
+%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'DIRN'));
 
 % methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'KNUTSSON'));
 % methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'MICHAU'));
@@ -67,9 +67,9 @@ methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'DIRN'));
 % methodsToUse = methodsToUse | strcmp(methods,'PC-SINC-Wex');
 % methodsToUse = methodsToUse | strcmp(methods,'PC-REN2010-Wex');
 
-% methodsToUse = false(1, length(methods));
-% methodsToUse = methodsToUse | strcmp(methods,'PC-SINC-Wex');
-% methodsToUse = methodsToUse | strcmp(methods,'GC04-Gch1');
+methodsToUse = false(1, length(methods));
+methodsToUse = methodsToUse | strcmp(methods,'PC-SINC-Wex');
+methodsToUse = methodsToUse | strcmp(methods,'GC04v2-Gg0.6');
     
 methods = methods(methodsToUse);
 

@@ -1,9 +1,9 @@
 function [output] = CalculateExtendedTransitionBetweenFramesREN2014(I1, I2, method, window)
-if (exist('../ShiftEstimation/Argyriou','dir')) 
-    addpath('../ShiftEstimation/Argyriou');
-elseif exist('./ShiftEstimation/Argyriou','dir')
-    addpath('./ShiftEstimation/Argyriou');
-end
+% if (exist('../ShiftEstimation/Argyriou','dir')) 
+%     addpath('../ShiftEstimation/Argyriou');
+% elseif exist('./ShiftEstimation/Argyriou','dir')
+%     addpath('./ShiftEstimation/Argyriou');
+% end
 
 output = Ren2014(I1, I2, window, method);
 

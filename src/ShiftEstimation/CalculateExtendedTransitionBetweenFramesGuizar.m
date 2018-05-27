@@ -1,12 +1,12 @@
 function [output] = CalculateExtendedTransitionBetweenFramesGuizar(I1, I2, precision)
 
-if (exist('../ShiftEstimation/Guizar','dir')) 
-    addpath('../ShiftEstimation/Guizar');
-else
-    if exist('./ShiftEstimation/Guizar','dir')
-        addpath('./ShiftEstimation/Guizar');
-    end
-end
+% if (exist('../ShiftEstimation/Guizar','dir')) 
+%     addpath('../ShiftEstimation/Guizar');
+% else
+%     if exist('./ShiftEstimation/Guizar','dir')
+%         addpath('./ShiftEstimation/Guizar');
+%     end
+% end
 [res, ~] = dftregistration(fft2(I1),fft2(I2),precision);
 output = res(3:4);
 

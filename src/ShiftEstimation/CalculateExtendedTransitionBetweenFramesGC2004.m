@@ -1,9 +1,9 @@
 function [output] = CalculateExtendedTransitionBetweenFramesGC2004(I1, I2, par, method)
-if (exist('../ShiftEstimation/Argyriou','dir')) 
-    addpath('../ShiftEstimation/Argyriou');
-elseif exist('./ShiftEstimation/Argyriou','dir')
-    addpath('./ShiftEstimation/Argyriou');
-end
+% if (exist('../ShiftEstimation/Argyriou','dir')) 
+%     addpath('../ShiftEstimation/Argyriou');
+% elseif exist('./ShiftEstimation/Argyriou','dir')
+%     addpath('./ShiftEstimation/Argyriou');
+% end
 
 defaultCutoffFreq = 0.25;
 
