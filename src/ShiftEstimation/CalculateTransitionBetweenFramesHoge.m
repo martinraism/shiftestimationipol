@@ -20,11 +20,11 @@ PS = PS ./(abs(PS));
 % PDM = angle(PS);
 
 % Version 1: Faster
-[U,~,V] = svds(PS,1);
+%[U,~,V] = svds(PS,1);
 % Version 2: Slower, but more compatible
-% [U2, ~, V2] = svd(PS);
-% U = U2(:,1);
-% V = V2(:,1);
+ [U2, ~, V2] = svd(PS);
+ U = U2(:,1);
+ V = V2(:,1);
 % PDM2 = angle(U * S * V');
 N = length(V);
 r = 0:N-1;

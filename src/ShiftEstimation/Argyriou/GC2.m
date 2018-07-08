@@ -15,9 +15,6 @@ siz2 = size(gI1w, 2);
 FFTgI1 = fft(fft(gI1w, 1*siz1).', 1*siz2).';
 FFTgI2 = fft(fft(gI2w, 1*siz1).', 1*siz2).';
 
-% FFTgI1 = fft(fft(gI1w.', siz2).', siz1).';
-% FFTgI2 = fft(fft(gI2w.', siz2).', siz1).';
-
 % Pad both images in the frequency domain and FFT invert
 FFTgI1 = ifftshift(padarray(fftshift(FFTgI1),floor([siz1/2 siz2/2])));
 FFTgI2 = ifftshift(padarray(fftshift(FFTgI2),floor([siz1/2 siz2/2])));
@@ -27,8 +24,10 @@ gc = real(ifft2(FFTgI1.*conj(FFTgI2)));
 
 if normalize == 1    
     i1 = abs(gI1w); i2 = abs(gI2w);
+    
     FFT_i1 = fft(fft(i1, siz1).', siz2).';
     FFT_i2 = fft(fft(i2, siz1).', siz2).';
+    
     FFT_i1 = ifftshift(padarray(fftshift(FFT_i1),floor([siz1/2 siz2/2])));
     FFT_i2 = ifftshift(padarray(fftshift(FFT_i2),floor([siz1/2 siz2/2])));
     
@@ -46,10 +45,6 @@ if (normalize == 1)
     len = 5;
     gc(1:len,:) = 0; gc(:,1:len) = 0; gc(end-len+1:end,:) = 0; gc(:,end-len+1:end) = 0;
 end
-
-% if s == 's'
-%     figure; imagesc(abs(gc)); colorbar; %axis equal
-% end
 
 peak = max(max(abs(gc)));
 [mx, my] = find(abs(gc) == peak);

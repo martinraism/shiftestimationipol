@@ -1,14 +1,5 @@
-%clearvars;
-%close all;
-%addpath(genpath('/home/rais/Dropbox/CNES/Code/Utils'))
-%addpath(genpath('/home/rais/Dropbox/CNES/Code/ShiftEstimation'))
-%addpath(genpath('/home/rais/Dropbox/CNES/Code/GradientEstimation'))
-%addpath(genpath('/home/rais/PhD/aransac/vl'))
 %warning('off', 'images:initSize:adjustingMag');
-function [] = demo(im1File, im2File)
-% addpath(genpath('./ShiftEstimation'));
-% addpath(genpath('./GradientEstimation'));
-% addpath(genpath('./Utils'));
+function [] = demo(im1File, im2File, outputPath, additionalFilesPath)
 im1 = imread(im1File); im2 = imread(im2File);
 if (size(im1,3) == 3)
     im1 = double(rgb2gray(im1));
@@ -30,75 +21,71 @@ end
 %methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORIGRAD'));
 %methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORIIMAGE'));
 %methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ORISIGMA'));
-% For this demo, the compensated/corrected least squares method is commented 
-% out since we do not have (nor want to do) noise estimation 
-%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'CLS'));
-% Optimization based methods are also not used because they are expensive
-% and not accurate enough
-%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'SYMN'));
-%methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'DIRN'));
-
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'KNUTSSON'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'MICHAU'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'CLS'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'REN2014'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'SYMN'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'DIRN'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'LS-'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'MS-'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ACC-'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'APC-'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'PCSTONE'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'POYNEER'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'SDF'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'SS-'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'PC-SINC'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'PC-ESINC'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'PC-REN2010'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'ADF'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'CFI'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'INT'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'PC-GUIZAR'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'PC-LCM'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'PCFOO'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'GC11'));
-% methodsToUse = methodsToUse & cellfun(@isempty,strfind(methods,'NGC04'));
-% methodsToUse = methodsToUse | strcmp(methods,'PC-ESINC-Wex');
-% methodsToUse = methodsToUse | strcmp(methods,'PC-SINC-Wex');
-% methodsToUse = methodsToUse | strcmp(methods,'PC-REN2010-Wex');
 
 methodsToUse = false(1, length(methods));
+methodsToUse = methodsToUse | strcmp(methods,'LS-1-IlGfa7');
+methodsToUse = methodsToUse | strcmp(methods,'ULS-Gsim3');
+methodsToUse = methodsToUse | strcmp(methods,'MS-2-LS4-IsGg0.6');
+methodsToUse = methodsToUse | strcmp(methods,'MS-2,31-IfcGsim3');
+methodsToUse = methodsToUse | strcmp(methods,'MS-3,321-IsssGfa3');
+methodsToUse = methodsToUse | strcmp(methods,'MS-3,321-IfssGg0.6');
+methodsToUse = methodsToUse | strcmp(methods,'MS-4,4321-IsssssGch1');
+methodsToUse = methodsToUse | strcmp(methods,'MS-5,54321-IdssssGch1');
+methodsToUse = methodsToUse | strcmp(methods,'PC-SINC-Wnw');
 methodsToUse = methodsToUse | strcmp(methods,'PC-SINC-Wex');
+methodsToUse = methodsToUse | strcmp(methods,'PCSTONE-Wtw');
+methodsToUse = methodsToUse | strcmp(methods,'PC-SINC-Wtw');
+methodsToUse = methodsToUse | strcmp(methods,'PC-ESINC-Wtw');
+methodsToUse = methodsToUse | strcmp(methods,'PC-REN2010-Wtw');
+methodsToUse = methodsToUse | strcmp(methods,'SS-HOGE-Wtw');
+methodsToUse = methodsToUse | strcmp(methods,'INT-3');
+methodsToUse = methodsToUse | strcmp(methods,'GC11-Gg0.3');
+methodsToUse = methodsToUse | strcmp(methods,'GC04-Gg0.6');
 methodsToUse = methodsToUse | strcmp(methods,'GC04v2-Gg0.6');
-    
+methodsToUse = methodsToUse | strcmp(methods,'GC11-Gg1');
+methodsToUse = methodsToUse | strcmp(methods,'PC-QUADFIT');
+methodsToUse = methodsToUse | strcmp(methods,'PC-GAUSSFIT');
+methodsToUse = methodsToUse | strcmp(methods,'PC-GUIZAR-1000');
+
+methodsToUse = methodsToUse | strcmp(methods,'LS-4-IsGg0.6');
+methodsToUse = methodsToUse | strcmp(methods,'TLS-1-IlGh');
+methodsToUse = methodsToUse | strcmp(methods,'LS-2-IdGfa5');
+methodsToUse = methodsToUse | strcmp(methods,'SDF-2QI');
+methodsToUse = methodsToUse | strcmp(methods,'TLS-4-IlGg0.6');
 methods = methods(methodsToUse);
 
+failedIm = imread([additionalFilesPath '/failed.png']);
+failedIm = imresize(failedIm, [size(im2,1), size(im2,2)]);
+
 [~, ~, ~, results, durations] = EvaluateAlgorithmsParam(im1, im2, [], [], [], [], [], methodsToUse);
-%resultGT = ResampleImage(imToSearch, 35, -69, 'bicubic'); figure(1); ShowImage(resultGT);
-fprintf('\nShift estimation results:\n');
+[h, w] = size(im1);
+fileID = fopen([outputPath, 'results.txt'], 'w');
+
+% Check largest method name
+largestSize = -1;
 for i=1:size(results,1)
-    % Approximate GT
-    if (~isnan(results(i, 1)) && ~isnan(results(i, 2)) && ~(results(i, 1) == -1 && results(i, 2) == -1))
-        %if (norm(results(i,:) + [35,  -69]) < 4)
-%             result = ResampleImage(imToSearch, -results(i, 1), -results(i, 2), 'bicubic');
-%             figure(2); ShowImage(result);
-            fprintf('Method: %s. [Dx, Dy]: (%f,%f)\n', methods{i}, results(i, 1), results(i, 2));
-        %end
+    sz = length(methods{i}); 
+    if (sz > largestSize)
+        largestSize = sz;
     end
 end
-%methodID = 2;
-%H2 = H_GT;
-%H2 = H2 / H2(3,3);
-%H2(1,3) = H2(1,3) - results(methodID, 1);
-%H2(2,3) = H2(2,3) - results(methodID, 2);
-%imRes2 = ResampleImageH(imOpt, size(imOptResampled), H2, 1);
-%imRes = ResampleImageH(imOptResampled, size(imOptResampled), [1,0,-results(methodID, 1); 0,1,-results(methodID, 2); 0, 0, 1], 1);
-%close all;
-%figure; ShowImage(imRes); figure; ShowImage(imRes2);
-
-%figure(2); ShowTwoImagesSuperposed(imResampled, imRef, 'superpose');
-%[imOptResampled] = ResampleImageH(imToSearch, size(imToSearch), [1,0,-results(methodID, 1); 0,1,-results(methodID, 2); 0, 0, 1], 1);
-%result = ResampleImage(imToSearch, -results(1, 1), -results(1, 2), 'bicubic'); 
-%figure(2); 
-%ShowTwoImagesSuperposed(imRes, imRef, 'superpose');
+fprintf(fileID, 'Method%s Estimated Shift (Dx, Dy)\tTime (seconds)\n', [repmat(' ', 1, largestSize - length('Method'))]);
+fprintf('Method%s Estimated Shift (Dx, Dy)\tTime (seconds)\n', [repmat(' ', 1, largestSize - length('Method'))]);
+for i=1:size(results,1)
+    % Approximate GT
+    if (~isnan(results(i, 1)) && ~isnan(results(i, 2)) && ~(results(i, 1) == -1 && results(i, 2) == -1) && results(i, 1) < w/2 && results(i,2) < h/2)
+        im1R = ResampleImage(im1, -results(i, 1), -results(i, 2), 'spline');
+        imdif = abs(im2 - im1R);
+        imdif2 = uint8(round(imdif) * 5);
+        imwrite(imdif2, [outputPath 'dif_' methods{i} '.png']);
+        imwrite(uint8(round(im1R)), [outputPath methods{i} '.png']);
+        fprintf('%s (%f,%f) \t%.3f\n', [methods{i} repmat(' ', 1, largestSize - length(methods{i}))] , results(i, 1), results(i, 2), durations(i));
+        fprintf(fileID, '%s (%f,%f) \t%.3f\n', [methods{i} repmat(' ', 1, largestSize - length(methods{i}))], results(i, 1), results(i, 2), durations(i));
+    else
+        imwrite(failedIm, [outputPath 'dif_' methods{i} '.png']);
+        imwrite(failedIm, [outputPath methods{i} '.png']);
+        fprintf('%s Estimation failed.\n', [methods{i} repmat(' ', 1, largestSize - length(methods{i}))]);
+        fprintf(fileID, '%s Estimation failed.\n', [methods{i} repmat(' ', 1, largestSize - length(methods{i}))]);
+    end
+end
 end
